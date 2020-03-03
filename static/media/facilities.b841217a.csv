@@ -1,0 +1,306 @@
+facility,status,region,technology,generatorcap,latitude,longitude
+Ballarat Battery,Commissioned,Victoria,Battery (Discharging),30,-37.567452,143.852741
+Dalrymple North Battery,Commissioned,South Australia,Battery (Discharging),30,-34.888446,137.758114
+Gannawarra Battery,Commissioned,Victoria,Battery (Discharging),30,-35.735056,143.779462
+Hornsdale Power Reserve,Commissioned,South Australia,Battery (Discharging),100,-33.085519,138.521914
+Lake Bonney Bess1,Commissioned,South Australia,Battery (Discharging),25,-37.7387871,140.3846721
+Berwick,Commissioned,Victoria,Bioenergy (Biogas),7,-37.940819,145.236257
+Bolivar Waste Water Treatment,Commissioned,South Australia,Bioenergy (Biogas),10,-34.495482,138.387641
+Broadmeadows,Commissioned,Victoria,Bioenergy (Biogas),5,-37.685081,144.966114
+Broadwater,Commissioned,New South Wales,Bioenergy (Biogas),38,-29.016483,153.445756
+Brooklyn,Commissioned,Victoria,Bioenergy (Biogas),3,-37.818597,144.828492
+Browns Plains,Commissioned,Queensland,Bioenergy (Biogas),2,-27.674584,153.068499
+Clayton,Commissioned,Victoria,Bioenergy (Biogas),11,-37.950618,145.119681
+Condong,Commissioned,New South Wales,Bioenergy (Biogas),30,-28.314766,153.433808
+Corio,Commissioned,Victoria,Bioenergy (Biogas),1,-38.059048,144.404905
+Eastern Creek,Commissioned,New South Wales,Bioenergy (Biogas),5,-33.815468,150.854307
+Eastern Creek 2,Commissioned,New South Wales,Bioenergy (Biogas),8.984,-33.815468,150.854307
+Grange Avenue,Commissioned,New South Wales,Bioenergy (Biogas),2,-33.713011,150.83316
+Hallam Road,Commissioned,Victoria,Bioenergy (Biogas),9,-38.052181,145.267798
+Jacks Gully,Commissioned,New South Wales,Bioenergy (Biogas),2,-34.072955,150.743691
+Kemps Creek,Commissioned,New South Wales,Bioenergy (Biogas),1,,
+Kincumber,Commissioned,New South Wales,Bioenergy (Biogas),1,-33.477111,151.402603
+Lucas Heights 2,Commissioned,New South Wales,Bioenergy (Biogas),5,-34.044088,150.972475
+Remount,Commissioned,Tasmania,Bioenergy (Biogas),2,-41.398447,147.1495
+Rochedale,Commissioned,Queensland,Bioenergy (Biogas),4,-27.555798,153.123155
+Shepparton Wastewater Treatment,Commissioned,Victoria,Bioenergy (Biogas),1,-36.322223,145.379291
+Springvale,Commissioned,Victoria,Bioenergy (Biogas),5,-37.973375,145.139695
+Stapylton,Commissioned,Queensland,Bioenergy (Biogas),3,,
+Tatura Biomass,Commissioned,Victoria,Bioenergy (Biogas),1,-36.47915,145.235037
+Veolia Ti Tree Bio Reactor,Commissioned,Queensland,Bioenergy (Biogas),2,-27.695551,152.650313
+West Nowra,Commissioned,New South Wales,Bioenergy (Biogas),1,-34.882318,150.551075
+Whitwood Road,Commissioned,Queensland,Bioenergy (Biogas),1,-27.620454,152.824409
+Wingfield 1,Commissioned,South Australia,Bioenergy (Biogas),5,-34.835138,138.548949
+Wingfield 2,Commissioned,South Australia,Bioenergy (Biogas),5,-34.835138,138.548949
+Wollert,Commissioned,Victoria,Bioenergy (Biogas),7,-37.591792,145.043033
+Woodlawn Bioreactor,Commissioned,New South Wales,Bioenergy (Biogas),7,-35.05928,149.5749
+Woy Woy,Commissioned,New South Wales,Bioenergy (Biogas),1,-33.506914,151.291606
+Invicta Sugar Mill,Commissioned,Queensland,Bioenergy (Biomass),50,-19.51579031,147.1065305
+Isis Central Sugar Mill,Commissioned,Queensland,Bioenergy (Biomass),25,-25.197619,152.206949
+Pioneer Sugar Mill,Commissioned,Queensland,Bioenergy (Biomass),68,-19.557546,147.330825
+Racecourse Mill,Commissioned,Queensland,Bioenergy (Biomass),48.5,-21.163842,149.135738
+Rocky Point Co-gen,Commissioned,Queensland,Bioenergy (Biomass),30,-27.733564,153.326464
+Victoria Mill,Commissioned,Queensland,Bioenergy (Biomass),24,-18.650208,146.200866
+Tableland Mill,Commissioned,Queensland,Biomass,24,-17.119813,145.34513
+Bayswater,Commissioned,New South Wales,Black Coal,2640,-32.39350179,150.953963
+Callide B,Commissioned,Queensland,Black Coal,700,-24.33316877,150.6263216
+Callide C,Commissioned,Queensland,Black Coal,840,-24.347222,150.608611
+Eraring,Commissioned,New South Wales,Black Coal,2880,-33.06154805,151.5246123
+Gladstone,Commissioned,Queensland,Black Coal,1680,-23.84874103,151.2207867
+Kogan Creek,Commissioned,Queensland,Black Coal,744,-26.915285,150.7489475
+Liddell,Commissioned,New South Wales,Black Coal,2000,-32.36902679,150.9801122
+Millmerran,Commissioned,Queensland,Black Coal,852,-27.96165701,151.2809098
+Mt Piper,Commissioned,New South Wales,Black Coal,1400,-33.36071511,150.0356981
+Stanwell,Commissioned,Queensland,Black Coal,1460,-23.50750115,150.3178837
+Tarong,Commissioned,Queensland,Black Coal,1400,-26.77439673,151.9178376
+Tarong North,Commissioned,Queensland,Black Coal,443,-26.77439673,151.9178376
+Vales Point B,Commissioned,New South Wales,Black Coal,1320,-33.164639,151.5441155
+Loy Yang A,Commissioned,Victoria,Brown Coal,2210,-38.2506223,146.5763613
+Loy Yang B,Commissioned,Victoria,Brown Coal,1000,-38.25361918,146.5855932
+Yallourn W,Commissioned,Victoria,Brown Coal,1480,-38.17759622,146.3475084
+Angaston,Commissioned,South Australia,Distillate,100,-34.50394829,139.0242963
+Broken Hill,Commissioned,New South Wales,Distillate,50,-31.98631319,141.42062
+Eraring,Commissioned,New South Wales,Distillate,42,-33.062117,151.517224
+Hunter Valley,Commissioned,New South Wales,Distillate,50,-32.38998919,150.9659629
+Lonsdale,Commissioned,South Australia,Distillate,21,-35.109718,138.490962
+Mackay,Commissioned,Queensland,Distillate,30,-21.14444071,149.1591707
+Mt Stuart,Commissioned,Queensland,Distillate,419,-19.3371562,146.851239
+Port Lincoln,Commissioned,South Australia,Distillate,73,-34.70061601,135.8045305
+Port Stanvac,Commissioned,South Australia,Distillate,173.6,-35.110345,138.490872
+Snuggery,Commissioned,South Australia,Distillate,88,-37.66499562,140.4146856
+St George Leagues Club,Commissioned,New South Wales,Distillate,1,-33.974819,151.129354
+Tataria Bordertown,Commissioned,South Australia,Distillate,1,-36.326977,140.737035
+Temporary Generation North,Commissioned,South Australia,Distillate,154,-34.719707,138.668425
+Temporary Generation South,Commissioned,South Australia,Distillate,123,-35.096799,138.483997
+West Illawarra Leagues Club,Commissioned,New South Wales,Distillate,1,-34.451645,150.843037
+Western Suburbs League Club,Commissioned,New South Wales,Distillate,1,-34.051073,150.832757
+Willoughby,Commissioned,New South Wales,Distillate,3,-33.810858,151.196599
+Catagunya / Liapootah / Wayatinah,Commissioned,Tasmania,"Distillate,Hydro",197,-42.37613118,146.5098241
+Meadowbank,Commissioned,Tasmania,"Distillate,Hydro",64,-42.6108345,146.8463877
+Barcaldine,Commissioned,Queensland,Gas (CCGT),37,-23.55217058,145.3148512
+Condamine  A,Commissioned,Queensland,Gas (CCGT),143,-26.66667293,150.2685812
+Darling Downs,Commissioned,Queensland,Gas (CCGT),121,-27.11685128,150.8953913
+Osborne,Commissioned,South Australia,Gas (CCGT),180,-34.79769982,138.5080986
+Pelican Point,Commissioned,South Australia,Gas (CCGT),478,-34.76436536,138.5053993
+Smithfield,Commissioned,New South Wales,Gas (CCGT),39,-33.85002263,150.9500508
+Swanbank E,Commissioned,Queensland,Gas (CCGT),385,-27.65528591,152.8186436
+Tallawarra,Commissioned,New South Wales,Gas (CCGT),440,-34.52308945,150.808566
+Tamar Valley,Commissioned,Tasmania,Gas (CCGT),208.6,-41.13926795,146.9061848
+Townsville,Commissioned,Queensland,Gas (CCGT),242,-19.20037385,146.6182647
+Yarwun,Commissioned,Queensland,Gas (CCGT),154,-23.83020031,151.1496916
+Bairnsdale,Commissioned,Victoria,Gas (OCGT),92,-37.8422305,147.5637253
+Bell Bay Three,Commissioned,Tasmania,Gas (OCGT),163,-41.13932356,146.9055218
+Braemar,Commissioned,Queensland,Gas (OCGT),504,-27.11166878,150.9076475
+Braemar 2,Commissioned,Queensland,Gas (OCGT),519,-27.10987267,150.9076533
+Colongra,Commissioned,New South Wales,Gas (OCGT),724,-33.20878096,151.54354
+Dry Creek,Commissioned,South Australia,Gas (OCGT),156,-34.84729318,138.582297
+Hallett,Commissioned,South Australia,Gas (OCGT),180,-33.34931024,138.7526328
+Jeeralang A,Commissioned,Victoria,Gas (OCGT),204,-38.27511122,146.4270464
+Jeeralang B,Commissioned,Victoria,Gas (OCGT),228,-38.27384456,146.4248265
+Ladbroke Grove,Commissioned,South Australia,Gas (OCGT),80,-37.45618317,140.7826992
+Laverton North,Commissioned,Victoria,Gas (OCGT),312,-37.8416933,144.7880062
+Longford,Commissioned,Victoria,Gas (OCGT),44,-38.223244,147.1631
+Mintaro,Commissioned,South Australia,Gas (OCGT),115,-33.90314861,138.7387972
+Mortlake,Commissioned,Victoria,Gas (OCGT),566,-38.06262783,142.6663305
+Oakey,Commissioned,Queensland,Gas (OCGT),282,-27.41820726,151.6788872
+Quarantine,Commissioned,South Australia,Gas (OCGT),229,-34.77907369,138.5224545
+Roma,Commissioned,Queensland,Gas (OCGT),80,-26.57678804,148.839485
+Somerton,Commissioned,Victoria,Gas (OCGT),170,-37.63094866,144.9530983
+Uranquinty,Commissioned,New South Wales,Gas (OCGT),664,-35.18022565,147.2156599
+Valley  Peaking,Commissioned,Victoria,Gas (OCGT),300,-38.25260085,146.5889059
+Ballarat Hospital,Commissioned,Victoria,Gas (Reciprocating),1,-37.558774,143.847247
+Barker Inlet,Commissioned,South Australia,Gas (Reciprocating),211,-34.804,138.524
+Daandine,Commissioned,Queensland,Gas (Reciprocating),33,-27.08629437,150.9425277
+Moranbah,Commissioned,Queensland,Gas (Reciprocating),13,-21.962469,148.006004
+Oaky Creek,Commissioned,Queensland,Gas (Reciprocating),20,-23.048717,148.484462
+Traralgon Network Support,Commissioned,Victoria,Gas (Reciprocating),10,-37.833513,144.965955
+Wilga Park,Commissioned,New South Wales,Gas (Reciprocating),10,-30.314444,149.652768
+Wilga Park B,Commissioned,New South Wales,Gas (Reciprocating),6,-30.314444,149.652768
+Newport,Commissioned,Victoria,Gas (Steam),500,-37.84137425,144.8954786
+Torrens Island,Commissioned,South Australia,Gas (Steam),1280,-34.80455914,138.5222287
+Appin,Commissioned,New South Wales,Gas (Waste Coal Mine),55,-34.210868,150.792711
+German Creek,Commissioned,Queensland,Gas (Waste Coal Mine),45,-22.928526,148.549097
+Glennies Creek,Commissioned,New South Wales,Gas (Waste Coal Mine),12,-32.464343,151.130432
+Grosvenor 1,Commissioned,Queensland,Gas (Waste Coal Mine),21,,
+Grosvenor 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,,
+Moranbah North,Commissioned,Queensland,Gas (Waste Coal Mine),63,-21.978481,148.004809
+Oaky Creek 2,Commissioned,Queensland,Gas (Waste Coal Mine),15,-23.048717,148.484462
+Tahmoor,Commissioned,New South Wales,Gas (Waste Coal Mine),7,-34.249117,150.577718
+Teralba,Commissioned,New South Wales,Gas (Waste Coal Mine),3,-32.945557,151.612042
+Tower,Commissioned,New South Wales,Gas (Waste Coal Mine),41,-34.219461,150.718012
+Banimboola,Commissioned,Victoria,Hydro,12,-36.534524,147.459788
+Barron Gorge,Commissioned,Queensland,Hydro,60,-16.85077013,145.6470493
+Bastyan,Commissioned,Tasmania,Hydro,80,-41.73623091,145.5315885
+Blowering,Commissioned,New South Wales,Hydro,80,-35.39740214,148.2472251
+Bogong / Mackay,Commissioned,Victoria,Hydro,106,-36.80547095,147.2278447
+Brown Mountain,Commissioned,New South Wales,Hydro,5,-36.594993,149.473997
+Burrendong,Commissioned,New South Wales,Hydro,19,-32.664647,149.108016
+Burrinjuck,Commissioned,New South Wales,Hydro,27,-35.00353222,148.5798905
+Butlers Gorge,Commissioned,Tasmania,Hydro,15,-42.26710663,146.2621267
+Cethana,Commissioned,Tasmania,Hydro,85,-41.47985179,146.134472
+Clover,Commissioned,Victoria,Hydro,29,-36.78515024,147.2195169
+Cluny,Commissioned,Tasmania,Hydro,19,-42.50622857,146.6811229
+Copeton,Commissioned,New South Wales,Hydro,22.5,-29.907544,150.930235
+Dartmouth,Commissioned,Victoria,Hydro,150,-36.55528977,147.5198723
+Devils Gate,Commissioned,Tasmania,Hydro,60,-41.34992471,146.262709
+Eildon,Commissioned,Victoria,Hydro,120,-37.22126231,145.920966
+Eildon (Run of River),Commissioned,Victoria,Hydro,5,-37.221774,145.922582
+Fisher,Commissioned,Tasmania,Hydro,43,-41.67266234,146.2687394
+Glenbawn,Commissioned,New South Wales,Hydro,5.5,-32.107937,150.999481
+Glenmaggie,Commissioned,Victoria,Hydro,4,-37.904836,146.800388
+Gordon,Commissioned,Tasmania,Hydro,457,-42.74015707,145.9833753
+Guthega,Commissioned,New South Wales,Hydro,60,-36.34977248,148.4140302
+Hallam,Commissioned,Victoria,Hydro,1,-38.143332,145.119964
+Hume (NSW),Commissioned,New South Wales,Hydro,29,-36.10638251,147.0322634
+Hume (VIC),Commissioned,Victoria,Hydro,29,-36.106887,147.032572
+Jindabyne (Mini Hydro),Commissioned,New South Wales,Hydro,1,-36.434918,148.63057
+John Butters,Commissioned,Tasmania,Hydro,144,-42.15589019,145.5365084
+Jounama (Mini Hydro),Commissioned,New South Wales,Hydro,14,-35.561274,148.306384
+Kareeya,Commissioned,Queensland,Hydro,91,-17.76645582,145.5768844
+Keepit,Commissioned,New South Wales,Hydro,6,-30.87868,150.491876
+Lake Echo,Commissioned,Tasmania,Hydro,32,-42.25333893,146.6205148
+Lemonthyme / Wilmot,Commissioned,Tasmania,Hydro,82,-41.48313525,146.1253375
+Mackintosh,Commissioned,Tasmania,Hydro,80,-41.701363,145.6465581
+Midlands,Commissioned,Tasmania,Hydro,6,-42.085747,147.274558
+Murray,Commissioned,Victoria,Hydro,1500,-36.24599189,148.1885517
+Paloona,Commissioned,Tasmania,Hydro,33,-41.28267954,146.2485805
+Pindari,Commissioned,New South Wales,Hydro,6,-29.388034,151.244774
+Poatina,Commissioned,Tasmania,Hydro,125,-41.80507321,146.9243655
+Poatina,Commissioned,Tasmania,Hydro,200,-41.80507321,146.9243655
+Reece,Commissioned,Tasmania,Hydro,232,-41.72313134,145.1364684
+Repulse,Commissioned,Tasmania,Hydro,28,-42.50798689,146.6471698
+Rowallan,Commissioned,Tasmania,Hydro,11,-41.72956983,146.2180869
+Rubicon,Commissioned,Victoria,Hydro,13,-37.29245322,145.8182024
+Tarraleah,Commissioned,Tasmania,Hydro,90,-42.30173561,146.456661
+The Drop,Commissioned,New South Wales,Hydro,3,-35.973527,145.999274
+Trevallyn,Commissioned,Tasmania,Hydro,93,-41.42230161,147.1120252
+Tribute,Commissioned,Tasmania,Hydro,108,-41.81146829,145.6532519
+Tumut,Commissioned,New South Wales,Hydro,616,-35.95349207,148.3696934
+Tungatinah,Commissioned,Tasmania,Hydro,125,-42.29639637,146.4558814
+West Kiewa,Commissioned,Victoria,Hydro,62,-36.75967369,147.1860821
+Wivenhoe (Mini Hydro),Commissioned,Queensland,Hydro,5,-27.394592,152.609237
+Wyangala A,Commissioned,New South Wales,Hydro,20,-33.980371,148.947377
+Wyangala B,Commissioned,New South Wales,Hydro,4,-33.980371,148.947377
+Yarrawonga,Commissioned,Victoria,Hydro,9,-36.009466,145.999568
+Shoalhaven,Commissioned,New South Wales,"Hydro,Pumps",240,-34.73308464,150.4667001
+Tumut 3,Commissioned,New South Wales,"Hydro,Pumps",1500,-35.61081711,148.2926435
+Wivenhoe,Commissioned,Queensland,"Hydro,Pumps",570,-27.37222377,152.6323617
+Jindabyne Pump,Commissioned,Victoria,Pumps,0,-36.434918,148.63057
+Baking Board,Commissioned,Queensland,Solar (Utility),17,-26.721166,150.55417
+Bannerton,Commissioned,Victoria,Solar (Utility),50,-34.67263,142.750362
+Barcaldine,Commissioned,Queensland,Solar (Utility),10,-23.547333,145.318972
+Beryl,Commissioned,New South Wales,Solar (Utility),98,-32.347501,149.460738
+Broken Hill,Commissioned,New South Wales,Solar (Utility),27,-31.988905,141.391547
+Bungala One,Commissioned,South Australia,Solar (Utility),135,-32.423316,137.841798
+Bungala Two,Commissioned,South Australia,Solar (Utility),135,-32.406993,137.840933
+Capital East,Commissioned,New South Wales,Solar (Utility),1,-35.180684,149.546482
+Childers,Commissioned,Queensland,Solar (Utility),64,-25.295027,152.403674
+Clare,Commissioned,Queensland,Solar (Utility),110,-19.83977,147.21055
+Clermont,Commissioned,Queensland,Solar (Utility),92,-22.8394058,147.5460307
+Coleambally,Commissioned,New South Wales,Solar (Utility),180,-34.759494,145.92984
+Collinsville,Commissioned,Queensland,Solar (Utility),42,-20.55714,147.820552
+Darling Downs,Commissioned,Queensland,Solar (Utility),121,-27.112,150.8819
+Daydream,Commissioned,Queensland,Solar (Utility),79,-20.512804,147.691968
+Emerald,Commissioned,Queensland,Solar (Utility),88,-23.50879,148.128017
+Finley,Commissioned,New South Wales,Solar (Utility),162,-35.64421,145.508644
+Gannawarra,Commissioned,Victoria,Solar (Utility),25,-35.73,143.7711
+Griffith,Commissioned,New South Wales,Solar (Utility),27,-34.317414,146.120739
+Hamilton,Commissioned,Queensland,Solar (Utility),57,-20.468593,147.799484
+Haughton,Commissioned,Queensland,Solar (Utility),132,-19.732168,147.076137
+Hayman,Commissioned,Queensland,Solar (Utility),57,-20.536162,147.846065
+Hughenden,Commissioned,Queensland,Solar (Utility),10,-20.854794,144.186048
+Karadoc,Commissioned,Victoria,Solar (Utility),104,-34.227904,142.28033
+Kidston,Commissioned,Queensland,Solar (Utility),50,-18.88,144.151
+Lilyvale,Commissioned,Queensland,Solar (Utility),118,-23.070504,148.413865
+Limondale SF,Commissioned,New South Wales,Solar (Utility),38,-34.7755018,143.5080463
+Longreach,Commissioned,Queensland,Solar (Utility),17,-23.455048,144.227917
+Manildra,Commissioned,New South Wales,Solar (Utility),25,-33.172831,148.71824
+Moree,Commissioned,New South Wales,Solar (Utility),57,-29.572607,149.861266
+Mugga Lane,Commissioned,New South Wales,Solar (Utility),12,-35.398441,149.14906
+Narromine,Commissioned,New South Wales,Solar (Utility),10,-32.218323,148.254523
+Nevertire,Commissioned,New South Wales,Solar (Utility),132,-31.8310438,147.7051778
+Numurkah,Commissioned,Victoria,Solar (Utility),74,-36.159275,145.473891
+Nyngan,Commissioned,New South Wales,Solar (Utility),102,-31.56319134,147.0741951
+Oakey 1,Commissioned,Queensland,Solar (Utility),30,-27.402454,151.6425757
+Oakey 2,Commissioned,Queensland,Solar (Utility),65,-27.402454,151.6425757
+Parkes,Commissioned,New South Wales,Solar (Utility),55,-33.113056,148.076372
+Ross River,Commissioned,Queensland,Solar (Utility),128,-19.425305,146.715686
+Royalla,Commissioned,New South Wales,Solar (Utility),20,-35.48605246,149.1419657
+Rugby Run,Commissioned,Queensland,Solar (Utility),83,-21.940469,147.880877
+South Keswick,Commissioned,New South Wales,Solar (Utility),15,-32.27286,148.649836
+Sun Metals,Commissioned,Queensland,Solar (Utility),117,-19.437318,146.696015
+Sunshine Coast,Commissioned,Queensland,Solar (Utility),15,-26.560799,153.025947
+Susan River,Commissioned,Queensland,Solar (Utility),85,-25.420275,152.742028
+Tailem Bend  1,Commissioned,South Australia,Solar (Utility),108,-35.28,139.49
+Wemen,Commissioned,Victoria,Solar (Utility),97,-34.80259,142.543348
+White Rock,Commissioned,New South Wales,Solar (Utility),22,-29.7632925,151.5502083
+Whitsunday,Commissioned,Queensland,Solar (Utility),57,-20.537259,147.80475
+Gullen Range,Commissioned,New South Wales,"Solar (Utility),Wind",176,-34.62451156,149.4585486
+Ararat,Commissioned,Victoria,Wind,241.59,-37.263393,143.082116
+Bald Hills,Commissioned,Victoria,Wind,59,-38.75818898,145.9560624
+Blayney,Commissioned,New South Wales,Wind,9.9,-33.621944,149.198333
+Boco Rock,Commissioned,New South Wales,Wind,113,-36.57452676,149.1248629
+Bodangora,Commissioned,New South Wales,Wind,113,-32.407128,149.04133
+Canunda,Commissioned,South Australia,Wind,46,-37.69830278,140.3836333
+Capital,Commissioned,New South Wales,Wind,140,-35.1235342,149.5002488
+Cathedral Rocks,Commissioned,South Australia,Wind,66,-34.84874114,135.5926489
+Challicum Hills,Commissioned,Victoria,Wind,52,-37.39546597,143.1045904
+Chepstowe,Commissioned,Victoria,Wind,6,-37.596503,143.499582
+Clements Gap,Commissioned,South Australia,Wind,57,-33.48977319,138.1116949
+Codrington,Commissioned,Victoria,Wind,18,-38.28287469,141.9549602
+Coonoer Bridge,Commissioned,Victoria,Wind,19.8,-36.472722,143.322039
+Coopers Gap,Commissioned,Queensland,Wind,452,-26.7170038,151.4491769
+Crookwell,Commissioned,New South Wales,Wind,4.8,-34.5165,149.54248
+Crookwell 2,Commissioned,New South Wales,Wind,96,-34.547676,149.589254
+Crowlands,Commissioned,Victoria,Wind,79,-36.97615,143.097998
+Cullerin Range,Commissioned,New South Wales,Wind,30,-34.75099457,149.3810268
+Granville Harbour,Commissioned,Tasmania,Wind,111,-41.802,145.056
+Gunning,Commissioned,New South Wales,Wind,47,-34.67636075,149.6644302
+Hallett 1,Commissioned,South Australia,Wind,95,-33.3284341,138.7046687
+Hallett 2,Commissioned,South Australia,Wind,71,-33.53821029,138.8572146
+Hampton,Commissioned,New South Wales,Wind,1.32,-33.649722,150.05
+Hepburn Wind,Commissioned,Victoria,Wind,4,-37.424555,144.115711
+Hornsdale,Commissioned,South Australia,Wind,102,-33.05982,138.537673
+Hornsdale  2,Commissioned,South Australia,Wind,102,-33.05982,138.537673
+Hornsdale  3,Commissioned,South Australia,Wind,112,-33.05982,138.537673
+Kiata,Commissioned,Victoria,Wind,31,-36.397693,141.746827
+Lake Bonney  1,Commissioned,South Australia,Wind,81,-37.76050438,140.4055412
+Lake Bonney 2,Commissioned,South Australia,Wind,159,-37.76050438,140.4055412
+Lake Bonney 3,Commissioned,South Australia,Wind,39,-37.76050438,140.4055412
+Lincoln Gap,Commissioned,South Australia,Wind,212.4,-32.5463326,137.5527629
+Macarthur,Commissioned,Victoria,Wind,420,-38.04348284,142.1790806
+Maroona,Commissioned,Victoria,Wind,6,-37.41875,142.82434
+Mortons Lane,Commissioned,Victoria,Wind,20,-37.83318644,142.4652881
+Mt Emerald,Commissioned,Queensland,Wind,180,-17.133248,145.380037
+Mt Gellibrand,Commissioned,Victoria,Wind,137.984,-38.257657,143.798651
+Mt Mercer,Commissioned,Victoria,Wind,131,-37.84759262,143.870183
+Mt Millar,Commissioned,South Australia,Wind,70,-33.6193425,136.7175682
+Murra Warra,Commissioned,Victoria,Wind,231,-36.438821,142.246003
+Musselroe,Commissioned,Tasmania,Wind,168,-40.77710526,148.0063147
+North Brown Hill,Commissioned,South Australia,Wind,132,-33.22811562,138.7168884
+Oaklands Hill,Commissioned,Victoria,Wind,67,-37.67948099,142.5529949
+Portland,Commissioned,Victoria,Wind,148,-38.36141715,141.3845597
+Salt Creek,Commissioned,Victoria,Wind,54,-37.918698,142.796027
+Sapphire,Commissioned,New South Wales,Wind,270,-29.710273,151.44558
+Silverton,Commissioned,New South Wales,Wind,198,-31.86095,141.296349
+Snowtown,Commissioned,South Australia,Wind,99,-33.69159845,138.1660222
+Snowtown North,Commissioned,South Australia,Wind,144,-33.75647865,138.1430432
+Snowtown South,Commissioned,South Australia,Wind,126,-33.86262421,138.1303665
+Starfish Hill,Commissioned,South Australia,Wind,35,-35.57898296,138.1396531
+Taralga,Commissioned,New South Wales,Wind,106,-34.42538727,149.8596032
+The Bluff,Commissioned,South Australia,Wind,52.5,-33.3677405,138.7937899
+Timboon West,Commissioned,Victoria,Wind,7,-38.528351,142.916231
+Toora,Commissioned,Victoria,Wind,21,-38.65352796,146.3397739
+Waterloo,Commissioned,South Australia,Wind,130,-33.99109527,138.9157228
+Wattle Point,Commissioned,South Australia,Wind,91,-35.11541044,137.7186724
+Waubra,Commissioned,Victoria,Wind,192,-37.35797906,143.5926002
+White Rock,Commissioned,New South Wales,Wind,175,-29.8291832,151.5453929
+Willogoleche,Commissioned,South Australia,Wind,119,-33.393569,138.84821
+Windy Hill,Commissioned,Queensland,Wind,12,-17.590399,145.52968
+Wonthaggi,Commissioned,Victoria,Wind,12,-38.60513,145.546292
+Woodlawn,Commissioned,New South Wales,Wind,48,-35.0816746,149.5705107
+Woolnorth,Commissioned,Tasmania,Wind,140,-40.73637475,144.6948205
+Yaloak South,Commissioned,Victoria,Wind,28,-37.716474,144.241947
+Yambuk,Commissioned,Victoria,Wind,30,-38.30527811,142.0184392
+Yawong,Commissioned,Victoria,Wind,7.2,-36.471022,143.361722
+Yendon,Commissioned,Victoria,Wind,144,-37.630952,144.022463
