@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.MainContainer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#map {
+  width: 60%;
+  min-height:500px;
+  background-color: lightgrey;
+}
+
