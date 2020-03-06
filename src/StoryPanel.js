@@ -49,8 +49,8 @@ export default class StoryPanel extends Component {
         <section id={this.props.title} className={`storyPanelSection ${ this.state.visible && this.state.id===this.props.activeID ? 'activePanel':'inactivePanel'}`}
             ref={ (divElement) => { this.divElement = divElement } }   >
           
-              <h1>{this.props.title}</h1>
-               {this.props.content} 
+              <h1 className={`sticky sectiontitle`}>{this.props.title}</h1>
+               <div className="panelcontent"> {this.props.content} </div>
            
         </section>
         </Observer>

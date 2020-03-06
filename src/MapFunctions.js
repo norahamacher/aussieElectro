@@ -9,14 +9,17 @@ export default class MapFunctions {
         this.map = new mapboxgl.Map({
             container: container,
             style: "mapbox://styles/mapbox/streets-v9",
-            zoom: [3],
-            center: [137.15, -40.5]
+            zoom: [5],
+            center: [3.436,55.3781]
         })
-       // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
-        var geojsondata = geojson.parse(data, {Point: ['latitude','longitude']})
-       // console.log(geojsondata)
+        // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
+        var geojsondata = data;//geojson.parse(data, {Point: ['latitude','longitude']})
+        // console.log(geojsondata)
         this.map.on('load', () => {
             console.log("on load...")
+            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], 2008];
+            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], 2008];
+            var filterType = ['!=', ['string', ['get','type']], 'placeholder'];
             this.map.addLayer({
                 id: 'powerplants',
                 type: 'circle',
@@ -44,44 +47,54 @@ export default class MapFunctions {
                     },
                     'circle-color': [
                         'match',
-                        ['get', 'technology'],
-                        "Black Coal", "#ced1cc",
-                        "Battery (Discharging)", "#4e80e5",
-                        "Hydro", "#ffc83e",
-                        "Hydro,Pumps", "#ffc83e",
-                        "Pumps", "#ffc83e",
-                        "Biomass", "#dd54b6",
+                        ['get', 'type'],
+                        "Coal", "#ced1cc",
+                        "Storage", "#4e80e5",
+                        "Solar", "#ffc83e",
+                        "Nuclear", "#dd54b6",
                         "Oil", "#a45edb",
-                        "Brown Coal", "#43cfef",
-                        "Distillate,Hydro", "#43cfef",
-                        "Gas (CCGT)", "#00a98e",
-                        "Gas (OCGT)", "#00a98e",
-                        "Gas (Reciprocating)", "#00a98e",
-                        "Gas (Steam)", "#00a98e",
-                        "Gas (Waste Coal Mine)", "#00a98e",
-                        "Bioenergy (Biomass)", "#A7B734",
-                        "Distillate", "#ea545c",
-                        "Bioenergy (Biogas)", "#cc9b7a",
-                        "Solar (Utility)", "#ffd300",
-                        "Solar (Utility),Wind", "#ffd300",
-                        "Wind", "#0000FF",
-
+                        "Hydro", "#43cfef",
+                        "Wave & Tidal", "#43cfef",
+                        "Wind", "#00a98e",
+                        "Biomass", "#A7B734",
+                        "Waste", "#ea545c",
+                        "Gas", "#cc9b7a",
             /* other */ '#ccc'
                     ],
                     'circle-opacity': 0.77
                 },
-                'filter':["all",["==", ["get","technology"], "Battery (Discharging)"]]
+                'filter': ['all', filterStartYear, filterEndYear, filterType]
             });
-
         })
-        
     }
 
-    setFilterType(filtertype){
-        if(this.map.isStyleLoaded()){
-        const filterType = ["all",["==", ["get","technology"], filtertype]]
-        this.map.setFilter('powerplants',['all', filterType])
+    setFilterType(filtertype) {
+        if (this.map.isStyleLoaded()) {
+            const filterType = ["all", ["==", ["get", "type"], filtertype]]
+            this.map.setFilter('powerplants', ['all', filterType])
         }
     }
 
+    setFilterYearStart(year) {
+        console.log(year)
+        if (this.map.isStyleLoaded()) {
+            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], year];
+            this.map.setFilter('powerplants', ['all', filterStartYear])
+        }
+    }
+
+    setFilterYearEnd(year) {
+        if (this.map.isStyleLoaded()) {
+            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], year];
+            this.map.setFilter('powerplants', ['all', filterEndYear])
+        }
+    }
+
+    setFilterStartEnd(year){
+        if (this.map.isStyleLoaded()) {
+            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], year];
+            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], year];
+            this.map.setFilter('powerplants', ['all', filterEndYear,filterStartYear])
+        }
+    }
 }

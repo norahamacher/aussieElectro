@@ -15,31 +15,18 @@ code {
     monospace;
 }
 
-
-#map {
-  min-height:500px;
-  background-color: lightgrey;
-}
-
 .Panels{
-  width:48%;
+  width:50%;
   overflow-y: scroll;
-  height: 800px;
-  margin-top:20px;
+  min-height: 800px;
 }
 
 .MainContainer {
   display: flex;
   justify-content: space-between;
- 
+  top:50;
 }
-.mapContainer{
-  position:fixed !important;  
-  margin-top:20px;
-  right:0;  
-  width:50%;
-  height:1000px;
-}
+
 
 
 .storyPanelSection h1{
@@ -47,14 +34,14 @@ code {
   margin-top:0
 }
 .storyPanelSection{
-  min-height:500px;
+  min-height:1000px;
   padding-left:10px;
  
 }
 
 .activePanel{
-  background: burlywood;
-  color: black;
+  background: rgba(40, 47, 66, 0.9);
+  color: white;
 }
 
 .inactivePanel{
@@ -65,7 +52,7 @@ code {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  position: sticky; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 1;
@@ -95,7 +82,7 @@ code {
 .Panels::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: rgba(255,0,0,0.8);
+  background: white;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
   box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
@@ -105,4 +92,912 @@ code {
   box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   -webkit-border-radius: 10px;
   border-radius: 10px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15px;
+}
+
+#text-mask {
+  background-image: linear-gradient(#282f42, rgba(40, 47, 66, 0.9), rgba(40, 47, 66, 0.75), rgba(40, 47, 66, 0));
+  z-index: 6;
+  width: inherit;
+  height: inherit;
+}
+
+#text-mask-wrapper {
+  z-index: 5;
+  height: 150px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'PT Sans', Helvetica, Arial, Sans-serif;
+  background-color: #282f42;
+}
+  
+#intro {
+  width: 100%;
+}
+
+.instructions {
+  font-style: italic;
+}
+
+.map-background {
+  /*background: url(../img/uk-map.jpg) no-repeat center center;*/
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 42, 58, 0.71);
+}
+
+#map {
+  width: 50%;
+  min-height: 1000px;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  right:0;
+}
+/*
+.mapContainer{
+  position:fixed !important;  
+  margin-top:20px;
+  right:0;  
+  width:50%;
+  height:1000px;
+}
+
+#map {
+  min-height:500px;
+  background-color: lightgrey;
+}
+*/
+#end-map {
+  width: 100%;
+  height: 1000px;
+  margin: 0;
+}
+
+.central {
+  width: 800px;
+  max-width: calc(100% - 30px);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.no-gaps {
+  letter-spacing: -0.2em;
+}
+
+#animation {
+  width: 440px;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  height: auto;
+}
+
+#text-container {
+  background-color: #282f42;
+  margin: 40px;
+}
+
+#end-container {
+  margin-top: 40px;
+}
+
+.padding-above {
+  height: 20%;
+}
+
+.padding-below {
+  height: 20%;
+}
+
+#slopechart {
+  width: 300px;
+  height: 250px;
+}
+
+.slopeLine {
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.slopeLabel {
+  font-size: 11px;
+}
+
+.sparkline {
+  height: 80px;
+  width: 220px;
+}
+
+.sparkPath {
+  fill: none;
+  stroke: #f3f3f3;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.sparkCircle {
+  fill: #f3f3f3;
+}
+
+.sparkText {
+  fill: #f3f3f3;
+  font-size: 12px;
+}
+
+.sparkTitle {
+  fill: #c6e7fa;
+  font-size: 12px;
+}
+
+.sparkHighlight {
+  stroke: #c6e7fa;
+  opacity: 0.9;
+}
+
+.credit {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  color: #f3f3f3;
+  font-size: 14px;
+  margin-top: 0em;
+  line-height: 1.6em;
+}
+
+.footer {
+  font-size: 17px;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: rgba(36, 42, 58, 0.95);
+}
+
+#canvas-wrapper {
+  position: relative;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+}
+
+
+#stacked-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+#scrollytext {
+  z-index: 3;
+}
+
+#year-container {
+  position: absolute;
+  left: 100px;
+  /* z-index: 2; */
+}
+
+/* fixing z-index of parent of sticky stops it going in front */
+#text-mask-wrapper {
+  z-index: 5;
+  height: 150px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#text-mask {
+  background-image: linear-gradient(#282f42, rgba(40, 47, 66, 0.9), rgba(40, 47, 66, 0.75), rgba(40, 47, 66, 0));
+  z-index: 6;
+  width: inherit;
+  height: inherit;
+}
+
+.sectiontitle {
+  padding: 5px;
+  color: white;
+  background-color: #282f42;
+  border: 1.5px solid #c6e7fa;
+  -moz-box-shadow:    3px 3px 0px 0px #c6e7fa;
+  -webkit-box-shadow: 3px 3px 0px 0px #c6e7fa;
+  box-shadow:         3px 3px 0px 0px #c6e7fa;
+  z-index: 9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.year {
+  height: 800px;
+  /* z-index: 3; */
+}
+
+.scrolltext {
+  z-index: 4;
+  opacity: 0.4;
+}
+
+.active {
+  opacity: 1;
+}
+
+/* clearfix for sticky elements */
+
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 0.95em;
+  color: #ffffff;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+
+h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1em;
+  color: #c6e7fa;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+
+#text-container h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #c6e7fa;
+}
+
+h3 {
+  font-family: 'PT Sans Narrow', Helvetica, Arial, Sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.7em;
+}
+
+h5 {
+  font-family: "PT Serif", Georgia, serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  color: #f3f3f3;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8em;
+  font-style: normal;
+  color: #f3f3f3;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.scrolltext p {
+  font-size: 16px;
+}
+
+.console-text {
+  font-family: 'PT Serif';
+  font-size: 13.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+a:hover {
+  color: #c6e7fa;
+  text-decoration: none;
+  border-bottom: 1px solid #c6e7fa;
+}
+
+.long-quote {
+  margin-left: 2em;
+  padding-left: 1em;
+  border-left: 3px solid #c6e7fa;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px !important;
+}
+
+.scrolltext ul {
+  font-size: 14px !important;
+  color: #f3f3f3;
+}
+
+.scrolltext li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  font-family: "PT Sans", sans-serif;
+}
+
+.row {
+  /* order important so don't override new syntax with old */
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  height: auto;
+  background-color: #282f42;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.large {
+  -ms-flex: 3 0 0;
+  -webkit-flex: 3 0 0;
+  flex: 3 0 0;
+}
+
+.small {
+  -ms-flex: 2.2 0 0;
+  -webkit-flex: 2.2 0 0;
+  flex: 2.2 0 0;
+}
+
+.large2 {
+  -ms-flex: 3 0 0;
+  -webkit-flex: 3 0 0;
+  flex: 3 0 0;
+}
+
+.small2 {
+  -ms-flex: 1 0 0;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+#chart-placeholder {
+  height: 200px;
+}
+
+.highlight {
+  padding: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 4px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: #282f42;
+}
+
+.coal {
+  background-color: #ced1cc;
+}
+
+.gas {
+  background-color: #cc9b7a;
+}
+
+.hydro {
+  background-color: #43cfef;
+}
+
+.oil {
+  background-color: #a45edb;
+}
+
+.nuclear {
+  background-color: #dd54b6;
+}
+
+.solar {
+  background-color: #ffc83e;
+}
+
+.wind {
+  background-color: #00a98e;
+}
+
+.biomass {
+  background-color: #A7B734;
+}
+
+.waste {
+  background-color: #ea545c;
+}
+
+.storage {
+  background-color: #4e80e5;
+}
+
+.interconnector {
+  background-color: #ff8767;
+}
+
+#key-mobile {
+  background-color: rgba(50, 59, 82, 0.88);
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: none;
+  /* fixes flashing on/off when scrolling in Chrome */
+  -webkit-transform: translateZ(0);
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+#key-mobile ul {
+  padding: 8px;
+  margin: 0px;
+  list-style: none;
+}
+
+#key-mobile li {
+  color: #e9e9e9;
+  font-size: 12.5px;
+  float: left;
+  padding-right: 12px;
+  padding-bottom: 8px;
+}
+
+#nav ul {
+  list-style: none;
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 100px);
+  z-index: 8;
+}
+
+#nav li {
+  position: relative;
+  display: block;
+  margin: 8px 0;
+	width: 8px;
+	height: 8px;
+	cursor: pointer;
+}
+
+#nav li a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.2);
+	text-indent: -999em;
+	cursor: pointer; /* make the text accessible to screen readers */
+  position: absolute;
+  border-bottom: none;
+  -webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#nav li span {
+  float: right;
+}
+
+.nav-label {
+  margin-right: 14px;
+  margin-top: 0.5px;
+  line-height: 9.5px;
+  font-size: 9px;
+  color: #f3f3f3;
+  visibility: hidden;
+  opacity: 0.9;
+}
+
+#nav li.current .nav-label {
+  visibility: visible;
+}
+
+#nav li a:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+
+#nav li.current a {
+	background-color: rgba(255,255,255,0.8);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+#console {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 410px;
+  margin: 10px;
+  padding: 10px 25px;
+  padding-right: 35px;
+  background-color: rgba(50, 59, 82, 0.88);
+  z-index: -9999;
+}
+
+.session {
+  margin-bottom: 15px;
+}
+
+#dropdown {
+  height: 130px;
+}
+
+.label-title {
+  color: rgba(198, 231, 250, 0.8);
+  font-weight: bold;
+}
+
+#dropdown-titles {
+  width: 100%;
+}
+
+#sliderbar {
+  margin-bottom: 0px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+#first-title {
+  width: 200px;
+}
+
+.slider {
+  height: 15px;
+  width: calc(100% - 20px);
+  margin-left:0px;
+}
+
+.label {
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+#line-wrapper {
+  width: 100%;
+  height: 270px;
+}
+
+#line-chart {
+  position: absolute;
+  z-index: 9999;
+}
+
+#line-chart-background {
+  position: absolute;
+}
+
+#bar-chart {
+  position: absolute;
+}
+
+#stacked-bar {
+  height: 80px;
+  width: 100%;
+}
+
+#credit {
+  border-top: 1px solid #949494;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#credit p {
+  color: #949494;
+  font-size: 11.5px;
+}
+
+#credit-button {
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(40, 47, 66, 0.8);
+  z-index: 6;
+  visibility: hidden;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.floating {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#credit-button p {
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 1em;
+}
+
+#scroll-area {
+  position: absolute;
+  width: 30px;
+  height: calc(100% - 40px);
+  right: 0px;
+  top: 0px;
+  display: none;
+  z-index: 6;
+}
+
+figure {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+figure img {
+  height: 300px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 1;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+figcaption {
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  margin: 0.8em;
+  color: #ffffff;
+  text-align: center;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://www.carbonbrief.org/wp-content/uploads/2018/04/arrow-for-map.png) 96% / 15% no-repeat #282f42;
+  background-size: 20px 13px;
+  border:2px;
+  padding: 4px;
+  color: #f3f3f3;
+  outline:0px;
+  cursor: pointer;
+}
+
+.selector {
+  width: 190px;
+  margin-right: 10px;
+}
+
+
+
+#logo:hover {
+  opacity: 1;
+}
+
+#share-menu {
+  display: none;
+}
+
+.share-icons {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9000;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 5px;
+  padding-top: 0px;
+}
+
+.share-icons .fa-stack {
+  opacity: 0.4;
+}
+
+.share-icons .fa-stack:hover {
+  opacity: 1;
+}
+
+.units {
+  font-size: 0.7em;
+}
+
+ /* nb tried getting rid of bright blue highlight but seems to be impossible without using something other than <select> or a  plugin */
+
+#selectorType:hover {
+  background-color: #282f42;
+}
+
+/* improve the styling of the slider in Chrome */
+
+input[type=range] {
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #282f42;
+  border: none;
+  border-radius: 3px;
+  height: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+/* improve the styling of the slider in IE and Edge */
+
+input[type=range]::-ms-track {
+  
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+  
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+
+  /*remove default tick marks*/
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #282f42;
+  border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #282f42;
+  border-radius: 10px;
+}
+
+/* removes the annoying box */
+
+input[type=range]::-ms-tooltip {
+  display: none;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #282f42;
+  border: none;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #282f42;
+}
+
+/* firefox */
+
+input[type=range]::-moz-range-thumb {
+  cursor: pointer;
+}
+
+/* style the map tooltip */
+
+.mapboxgl-popup-content {
+  color: #F3F3DD;
+  background-color: #242a3a;
+  max-width: 250px;
+  padding: 12px;
+}
+
+.mapboxgl-popup-content p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+/* change colour of tip to match popup */
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: #242a3a;
+    }
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: #242a3a;
+    }
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: #242a3a;
+    }
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: #242a3a;
+}
+
+.mapboxgl-ctrl-attrib {
+  /* fixes flashing on/off when scrolling in Chrome */
+  -webkit-transform: translateZ(0);
+}
+
+/* animation style */
+
+.st0{
+  stroke:#00a98e;
+  stroke-width: 5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 4;
+  fill: none;
 }

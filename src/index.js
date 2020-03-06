@@ -5,14 +5,16 @@ import './index.css';
 import StoryPanel from './StoryPanel.js'
 import * as d3 from 'd3'
 import data from './facilities.csv';
+import data2 from './ukdata/power_stations.json'
 import MapFunctions from './MapFunctions';
+import { json } from 'd3';
 
 
 class ScrollyTeller extends Component {
 
     //  m_mapfilter = null;
     state = {
-        alldata: [],
+        years: [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
         sorteddata: [],
         activeId: 0,
         panelHeight:700
@@ -24,7 +26,18 @@ class ScrollyTeller extends Component {
     componentDidMount = function () {
         //adjust height
         this.setState({panelHeight: window.innerHeight-130})
-        d3.csv(data).then((data) => {
+        
+        this.m_mapFunctions = new MapFunctions(data2,this.mapContainer)
+        this.setState({alldata:data2})
+        
+     /*   d3.json(data2).then((data2) => {
+            this.setState({
+                alldata:data2
+            })
+            console.log(data2)
+        })
+       */ 
+        /*d3.csv(data).then((data) => {
             this.setState({
                 alldata: data
             })
@@ -50,14 +63,17 @@ class ScrollyTeller extends Component {
                 sorteddata: this.allPanels
             })
 
-        })   
+        })   */
     }
     allPanels = []
     setActiveID = (id) => {
         this.setState({
             activeId: id
         })
-        this.m_mapFunctions.setFilterType(this.state.sorteddata[id].title)
+        //this.m_mapFunctions.setFilterYearStart(this.state.years[id])
+        this.m_mapFunctions.setFilterStartEnd(this.state.years[id])
+
+        //in each year i want to display plants that HAVE STARTED but NOT YET ENDED
     }
 
     componentDidUpdate() {
@@ -65,10 +81,10 @@ class ScrollyTeller extends Component {
 
     }
 
-    createPanelContent(parentIndex) {
-        var contentItems = this.state.sorteddata[parentIndex].content
+    createPanelContent(year) {
+     /*   var contentItems = this.state.sorteddata[parentIndex].content
         var res = []
-        for (var i = 0; i < contentItems.length; i++) {
+        for (var i = 0; i < this.state.years.length; i++) {
             var info = contentItems[i]
             res.push(<PanelContent
                 key={i}
@@ -81,24 +97,30 @@ class ScrollyTeller extends Component {
             />)
         }
         return res;
+        */
+       //read the text from somewhere based on the given year
+       return <PanelContent name={year} status={"this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"}></PanelContent>
+
     }
     render() {
         return (
             <div className="App">
                 <div className="navbar">
-                        {this.state.sorteddata.map(
-                            (panel,i) =>
+                        {this.state.years.map(
+                            (year,i) =>
                             <NavMenuItem
                                 key={i}
-                                name={panel.title}
+                                name={year}
                             />
-                         
                         )}
                     </div>
                 <div className="MainContainer">                  
                     <div className="Panels" style={{height: this.state.panelHeight}}>
-                        {this.state.sorteddata.map(
-                            (panel, i) =>
+                        <div id="text-mask-wrapper" className="sticky">
+                            <div id="text-mask"></div>
+                        </div>
+                        {this.state.years.map(
+                            (year, i) =>
                                 //"Facility Name", "Status", "Region", "Technology", "Generator Capacity (MW)", "Latitude", "Longitude"
 
                                 <StoryPanel
@@ -106,29 +128,24 @@ class ScrollyTeller extends Component {
                                     id={i}
                                     app={this}
                                     activeID={this.state.activeId} //the Storypanels figure out if they are the active panel and display accordingly
-                                    title={panel.title}
-                                    content={this.createPanelContent(i)}
+                                    title={year}
+                                    content={this.createPanelContent(year)}
                                 />
                         )}
                     </div>
-                    <div style={{height: this.state.panelHeight}} ref={el => this.mapContainer = el} className="mapContainer" />
+                    <div style={{height: this.state.panelHeight}} ref={el => this.mapContainer = el} className="mapContainer" id="map"/>
                 </div>
               
             </div>
         );
     }
-
 }
 
 //"Facility Name", "Status", "Region", "Technology", "Generator Capacity (MW)", "Latitude", "Longitude"
 const PanelContent = ({ name, status, region, capacity, latitude, longitude }) => (
     <div className="panelContentFragment">
         <h3>{name}</h3>
-        <p> Status: {status} </p>
-        <p> Capacity: {capacity}
-        </p>
-        <p>Region: {region}</p>
-        <span>Latitude/Longitude: {latitude}/{longitude}</span>
+        <p> Status: {status} </p>     
     </div>
 );
 
