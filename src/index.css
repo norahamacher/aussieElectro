@@ -1,13 +1,14 @@
 body {
   margin: 0;
-  padding-left:10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top:100px;
-  overflow-y: hidden
+  overflow-y: scroll;
+  
+    background-color: #282f42;
+  
 }
 
 code {
@@ -17,26 +18,20 @@ code {
 
 .Panels{
   width:50%;
-  overflow-y: scroll;
   min-height: 800px;
 }
 
 .MainContainer {
   display: flex;
   justify-content: space-between;
-  top:50;
 }
 
 
-
-.storyPanelSection h1{
-  padding-top:20px;
-  margin-top:0
-}
 .storyPanelSection{
   min-height:1000px;
   padding-left:10px;
  
+  
 }
 
 .activePanel{
@@ -45,20 +40,21 @@ code {
 }
 
 .inactivePanel{
-  background: lightgray;
+ /* background: lightgray;*/
   color: darkgrey;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky; /* Set the navbar to fixed position */
+  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  z-index: 1;
+  z-index: 100;
+  height:50px
 }
 
-.navbar a {
+.navItem {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -68,12 +64,15 @@ code {
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
+.navItem:hover {
   background: #ddd;
   color: black;
 }
 
-
+.navItemActive {
+  background: #ddd;
+  color: black;
+}
 /*scrollbar */
 .Panels::-webkit-scrollbar {
   width: 12px;
@@ -94,12 +93,8 @@ code {
   border-radius: 10px;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 15px;
-}
 
+/*
 #text-mask {
   background-image: linear-gradient(#282f42, rgba(40, 47, 66, 0.9), rgba(40, 47, 66, 0.75), rgba(40, 47, 66, 0));
   z-index: 6;
@@ -112,16 +107,10 @@ code {
   height: 150px;
   position: -webkit-sticky;
   position: sticky;
-  top: 120;
+  top: 120 !important;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-family: 'PT Sans', Helvetica, Arial, Sans-serif;
-  background-color: #282f42;
-}
+*/
   
 #intro {
   width: 100%;
@@ -150,8 +139,7 @@ body {
   width: 50%;
   min-height: 1000px;
   margin: 0;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   right:0;
 }
 /*
@@ -316,14 +304,15 @@ body {
 }
 
 /* fixing z-index of parent of sticky stops it going in front */
+/*
 #text-mask-wrapper {
   z-index: 5;
   height: 150px;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  margin-top: 150px;
 }
-
+*/
 #text-mask {
   background-image: linear-gradient(#282f42, rgba(40, 47, 66, 0.9), rgba(40, 47, 66, 0.75), rgba(40, 47, 66, 0));
   z-index: 6;
@@ -332,17 +321,20 @@ body {
 }
 
 .sectiontitle {
-  padding: 5px;
+  
   color: white;
   background-color: #282f42;
   border: 1.5px solid #c6e7fa;
-  -moz-box-shadow:    3px 3px 0px 0px #c6e7fa;
-  -webkit-box-shadow: 3px 3px 0px 0px #c6e7fa;
-  box-shadow:         3px 3px 0px 0px #c6e7fa;
+  -moz-box-shadow:    3px 2px 0px 0px #c6e7fa;
+  -webkit-box-shadow: 3px 2px 0px 0px #c6e7fa;
+  box-shadow:         3px 2px 0px 0px #c6e7fa;
   z-index: 9;
   position: -webkit-sticky;
   position: sticky;
-  top: 10px;
+  top:60px;
+  width: 30%;
+  text-align:center;
+  /*top:40px;*/
 }
 
 .year {

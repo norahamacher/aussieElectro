@@ -1,10 +1,27 @@
 import mapboxgl from 'mapbox-gl'
-import geojson from 'geojson'
-export default class MapFunctions {
+//import geojson from 'geojson'
+export default  class MapFunctions {
 
     // set to 2017 initially despite play preview or you get a bug when using the type dropdown
+    m_filterStartYear = ""
+    m_filterEndYear =""
+    m_filterType = ""
     map = null
-    constructor(data, container) {
+
+    instance
+    constructor() {
+
+        if(!!MapFunctions.instance){
+            console.log("returning existing instance")
+            return MapFunctions.instance
+        }
+
+        MapFunctions.instance = this
+        console.log("returning new instance")
+        return this
+    }
+
+    init(data, container){
         mapboxgl.accessToken = "pk.eyJ1Ijoibm9yYWhhbWEiLCJhIjoiY2ptaGFsZDR5MThrczN1dDhtajc1cTFmMSJ9.VEUImGmfsM77LfjErYxDdQ"
         this.map = new mapboxgl.Map({
             container: container,
@@ -16,10 +33,9 @@ export default class MapFunctions {
         var geojsondata = data;//geojson.parse(data, {Point: ['latitude','longitude']})
         // console.log(geojsondata)
         this.map.on('load', () => {
-            console.log("on load...")
-            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], 2008];
-            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], 2008];
-            var filterType = ['!=', ['string', ['get','type']], 'placeholder'];
+            this.m_filterStartYear = ['<=', ['number', ['get', 'yearStart']], 2008];
+            this.m_filterEndYear = ['>=', ['number', ['get', 'yearEnd']], 2008];
+            this.m_filterType= ['!=', ['string', ['get','type']], 'placeholder'];
             this.map.addLayer({
                 id: 'powerplants',
                 type: 'circle',
@@ -63,38 +79,57 @@ export default class MapFunctions {
                     ],
                     'circle-opacity': 0.77
                 },
-                'filter': ['all', filterStartYear, filterEndYear, filterType]
+                'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType]
             });
         })
     }
 
     setFilterType(filtertype) {
         if (this.map.isStyleLoaded()) {
-            const filterType = ["all", ["==", ["get", "type"], filtertype]]
-            this.map.setFilter('powerplants', ['all', filterType])
+            this.m_filterType = ["all", ["==", ["get", "type"], filtertype ]]
+            this.updateFilters()
         }
     }
 
     setFilterYearStart(year) {
         console.log(year)
         if (this.map.isStyleLoaded()) {
-            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], year];
-            this.map.setFilter('powerplants', ['all', filterStartYear])
+            this.m_filterStartYear = ['<=', ['number', ['get', 'yearStart']], year]
+            this.updateFilters()
         }
     }
 
     setFilterYearEnd(year) {
         if (this.map.isStyleLoaded()) {
-            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], year];
-            this.map.setFilter('powerplants', ['all', filterEndYear])
+            this.m_filterEndYear = ['>=', ['number', ['get', 'yearEnd']], year]
+            this.updateFilters()
         }
     }
 
     setFilterStartEnd(year){
         if (this.map.isStyleLoaded()) {
-            var filterEndYear = ['>=', ['number', ['get', 'yearEnd']], year];
-            var filterStartYear = ['<=', ['number', ['get', 'yearStart']], year];
-            this.map.setFilter('powerplants', ['all', filterEndYear,filterStartYear])
+            this.m_filterEndYear = ['>=', ['number', ['get', 'yearEnd']],  year]
+            this.m_filterStartYear = ['<=', ['number', ['get', 'yearStart']], year]
+            this.updateFilters()
         }
+    }
+
+    setFilterTypeString(arr){
+        if (this.map.isStyleLoaded()) {
+            this.m_filterType=arr
+            this.updateFilters()
+        }
+    }
+    
+    showAllTypes(){
+        if (this.map.isStyleLoaded()) {
+            this.m_filterType=['!=', ['string', ['get','type']], 'placeholder'];
+            this.updateFilters()
+        }
+    }
+    updateFilters(){
+       // map.setFilter('powerplants', ['all', filterOperator, filterType, filterStartYear, filterEndYear, filterSite, filterCapacity]);
+        this.map.setFilter('powerplants', ['all', this.m_filterStartYear,this.m_filterEndYear, this.m_filterType])
+  
     }
 }
