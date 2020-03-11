@@ -50,7 +50,6 @@ class ScrollyTeller extends Component {
        
         //in each year i want to display plants that HAVE STARTED but NOT YET ENDED
     }
-
  
     createPanelContent(year,paragraphs) {
    
@@ -142,10 +141,9 @@ const PanelContent = ({id,content}) => (
      <p id={id}>{content}</p>  
 )
 
-
-
 const NavMenuItem = ({id,name,activeId}) => (
    
+
     <ScrollIntoView 
         selector={`#section${name}`} 
         alignToTop={true} > 

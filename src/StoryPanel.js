@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Observer from '@researchgate/react-intersection-observer';
 import ReactHtmlParser from 'react-html-parser';
 import MapFunctions from './MapFunctions'
-import { image } from 'd3';
+
 export default class StoryPanel extends Component {
   //a storypanel is visible whenit enters the viewport until another enters.
   state = {

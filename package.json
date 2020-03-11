@@ -2,14 +2,12 @@
   "homepage": "http://norahamacher.github.io/aussieElectro",
   "name": "scrollyteller-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@abcnews/scrollyteller": "^1.4.1",
     "@researchgate/react-intersection-observer": "^1.0.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
-    "d3": "^5.15.0",
     "geojson": "^0.5.0",
     "mapbox-gl": "^1.8.1",
     "react": "^16.13.0",
@@ -19,7 +17,6 @@
     "react-mapbox-gl": "^4.8.2",
     "react-scripts": "3.4.0",
     "react-scroll-into-view": "^1.8.0",
-    "react-scrollable-anchor": "^0.6.1",
     "react-sticky-el": "^1.1.0",
     "react-waypoint": "^9.0.2"
   },
