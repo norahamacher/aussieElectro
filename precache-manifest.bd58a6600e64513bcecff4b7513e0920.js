@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d3b71cd6bb56bea5512eee3539bf83e",
+    "revision": "6a3e9a2f17ff895222fe0cc586452f85",
     "url": "/aussieElectro/index.html"
   },
   {
-    "revision": "66e7ea8cd4087bbf0fb9",
-    "url": "/aussieElectro/static/css/main.1d2a2810.chunk.css"
+    "revision": "1135ec52b4cbb9f63ba0",
+    "url": "/aussieElectro/static/css/main.32799cda.chunk.css"
   },
   {
     "revision": "220ecc0dd9219aac0d5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aussieElectro/static/js/2.dbab7b1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66e7ea8cd4087bbf0fb9",
-    "url": "/aussieElectro/static/js/main.201690f3.chunk.js"
+    "revision": "1135ec52b4cbb9f63ba0",
+    "url": "/aussieElectro/static/js/main.100b2c56.chunk.js"
   },
   {
     "revision": "7e0fe0b1a8ec31d5cd6f",
