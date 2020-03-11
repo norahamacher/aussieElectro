@@ -67,11 +67,24 @@
         
          },
         {
-          "text" : "Although the face of the UK’s electricity system is starting to change, it is still dominated by large, centralised power plants – many of which were built decades earlier. Just 56 power stations burning coal, gas, oil or nuclear fuel account for the lion’s share of power capacity – shown in the stacked bar chart on the left – and generate the vast majority of UK electricity. Coal’s share of generation has halved since the dash for gas in the 1990s, but some four-fifths of UK electricity still comes from fossil fuels – with another 13% from nuclear.",
+          "text" : "Although the face of the UK’s electricity system is starting to change, it is still dominated by large, centralised power plants – many of which were built decades earlier. Just 56 power stations burning coal, gas, oil or nuclear fuel account for the lion’s share of power capacity  and generate the vast majority of UK electricity. Coal’s share of generation has halved since the dash for gas in the 1990s, but some four-fifths of UK electricity still comes from fossil fuels – with another 13% from nuclear.",
           "actions" : [
               {"highlight" : {"type" : "type", "keywords": ["coal", "gas", "oil", "nuclear"]}}
           ]
-        }
+        },
+        {
+            "text" : "Encouraged by the Non Fossil Fuel Obligation and then the Renewables Obligation, a sprinkling of renewable plants have begun to appear. There are now 552 larger renewable sites – mostly fuelled by hydro, wind and wastes such as landfill gas – and another 3,150 small installations, including 2,400 solar rooftops. [These small sites are aggregated to local authority level and are only shown on the map when they total at least 1 megawatt (MW).] Despite their numbers, renewables supply just 6% of the UK’s electricity.",
+            "actions" : [
+                {"highlight" : {"type" : "type", "keywords": ["hydro", "wind", "waste", "solar"]}}
+            ],
+            "features" : [
+                {"type":"link", "url" : "https://www.annualreviews.org/doi/abs/10.1146/annurev.energy.25.1.285", "text" : "Non Fossil Fuel Obligation"},
+                {"type":"link", "url" : "https://www.ofgem.gov.uk/environmental-programmes/ro/about-ro", "text" : "Renewables Obligation"}  
+               
+            ]
+    
+          }
+
 
     ]},
 

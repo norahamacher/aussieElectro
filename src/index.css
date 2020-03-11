@@ -30,7 +30,7 @@ code {
 .storyPanelSection{
   min-height:1000px;
   padding-left:10px;
- 
+ margin-bottom:400px;
   
 }
 
@@ -339,12 +339,14 @@ code {
 
 .year {
   height: 800px;
+  
   /* z-index: 3; */
 }
 
 .scrolltext {
   z-index: 4;
   opacity: 0.4;
+  margin-bottom:50px
 }
 
 .active {

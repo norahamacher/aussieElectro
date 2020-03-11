@@ -59,7 +59,7 @@ class ScrollyTeller extends Component {
        var filter ="";
        for(var i = 0; i < paragraphs.length; i++){
            var key=year+"_"+i
-           //check for features
+           //check for features like links, if its a link, replace the "text" with a hyperlinnk to the "url"
            if(paragraphs[i].features){
                for(var j = 0; j < paragraphs[i].features.length;j++){
                    var feature = paragraphs[i].features[j]
@@ -69,14 +69,16 @@ class ScrollyTeller extends Component {
                    }
                }
            }
+           //if actions aredefined, they are added to the element here.
            if(paragraphs[i].actions){
                for( j=0; j<paragraphs[i].actions.length;j++){
                 var action = paragraphs[i].actions[j]
                 if(action.highlight){
                     filter = []
+                    //highlight means highlight the words in the text with a class of the same name, and filter things on the map of this name
                     for(var k =0; k<action.highlight.keywords.length; k++){
                         paragraphs[i].text = paragraphs[i].text.replace(action.highlight.keywords[k],"<span class='"+action.highlight.keywords[k]+"'>"+action.highlight.keywords[k]+"</span>")
-                        filter.push( this.cap(action.highlight.keywords[k]))
+                        filter.push( this.cap(action.highlight.keywords[k])) //capitalise first letter otherwise the filter breaks 
                     }
                 }
                }
@@ -93,6 +95,7 @@ class ScrollyTeller extends Component {
 
     }
 
+    //capitalise the first letter of  string
     cap(lower){
         return lower.replace(/^\w/, c => c.toUpperCase());
     }
