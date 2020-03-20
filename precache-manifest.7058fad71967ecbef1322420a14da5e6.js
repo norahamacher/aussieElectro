@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1411558fa0e815e96ee52b926d2d8299",
+    "revision": "19a0e71e4b1e8e0f2a75a3c8e3cd3266",
     "url": "/aussieElectro/index.html"
   },
   {
-    "revision": "32d486573b5c3b0dfc95",
+    "revision": "8679bf04a5fa3288e2b1",
     "url": "/aussieElectro/static/css/main.d10920a9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aussieElectro/static/js/2.6b97a348.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32d486573b5c3b0dfc95",
-    "url": "/aussieElectro/static/js/main.79ad27c6.chunk.js"
+    "revision": "8679bf04a5fa3288e2b1",
+    "url": "/aussieElectro/static/js/main.2f30ae98.chunk.js"
   },
   {
     "revision": "7e0fe0b1a8ec31d5cd6f",
