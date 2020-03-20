@@ -17,15 +17,31 @@ code {
 }
 
 .Panels{
-  width:50%;
+  width:30%;
   min-height: 800px;
+  margin-left:15%
 }
 
+.recharts-bar-rectangles {
+  border-radius: 5pt;
+}
 .MainContainer {
   display: flex;
   justify-content: space-between;
+  top: 100px;
+
 }
 
+.topDistance{
+  top: 100px
+}
+.leftSide {
+  width:5%;
+  height:800px;
+  position:fixed;
+  margin-left:50px;
+
+}
 
 .storyPanelSection{
   min-height:1000px;
@@ -51,7 +67,20 @@ code {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 100;
-  height:50px
+  height:45px;
+  vertical-align: center;
+}
+
+#typeNav {
+  top:45px
+}
+
+#typeNav .navItem {
+  height:35px;
+  margin-top:5px;
+  text-align:center;
+  line-height:35px;
+  margin-right:10px;
 }
 
 .navItem {
@@ -59,12 +88,16 @@ code {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  line-height:45px;
+  
+  margin-right:2px;
+  min-width: 50px;
+  
 }
 
 /* Change background on mouse-over */
-.navItem:hover {
+#yearNav .navItem:hover {
   background: #ddd;
   color: black;
 }
@@ -141,25 +174,6 @@ code {
   margin: 0;
   position: fixed;
   right:0;
-}
-/*
-.mapContainer{
-  position:fixed !important;  
-  margin-top:20px;
-  right:0;  
-  width:50%;
-  height:1000px;
-}
-
-#map {
-  min-height:500px;
-  background-color: lightgrey;
-}
-*/
-#end-map {
-  width: 100%;
-  height: 1000px;
-  margin: 0;
 }
 
 .central {
@@ -331,7 +345,7 @@ code {
   z-index: 9;
   position: -webkit-sticky;
   position: sticky;
-  top:60px;
+  top:100px;
   width: 30%;
   text-align:center;
   /*top:40px;*/
@@ -947,21 +961,30 @@ input[type=range]::-moz-range-thumb {
 
 /* style the map tooltip */
 
-.mapboxgl-popup-content {
+.popupDiv {
   color: #F3F3DD;
   background-color: #242a3a;
   max-width: 250px;
   padding: 12px;
+  border-radius: 5pt;
 }
 
-.mapboxgl-popup-content p {
+.popupInfo {
+  padding-left: 5px;
+  padding-right: 5px
+}
+.popupDiv p {
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
+  
 }
 
+.popupHeading {
+  margin-bottom: 2px
+}
 /* change colour of tip to match popup */
 
 .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,

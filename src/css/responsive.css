@@ -1,0 +1,403 @@
+@media all and (max-width: 1380px) {
+    
+    .small {
+        -ms-flex: 2.6 0 0;
+        -webkit-flex: 2.6 0 0;
+        flex: 2.6 0 0;
+    }
+
+    #text-container {
+        /* keep margin-top and bottom at 40 because of waypoints */
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    #animation {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media all and (max-width: 1280px) {
+
+    #logo {
+        width: 100px;
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .scrolltext p {
+        font-size: 15px;
+    }
+
+    .scrolltext ul {
+        font-size: 13px !important;
+    }
+
+    .long-quote {
+        font-size: 13px !important;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .mapboxgl-popup-content p {
+        font-size: 13.5px;
+        line-height: 18.5px;
+    }
+
+    .large {
+        -ms-flex: 1 0 0;
+        -webkit-flex: 1 0 0;
+        flex: 1 0 0;
+    }
+    
+    .small {
+        -ms-flex: 1.1 0 0;
+        -webkit-flex: 1.1 0 0;
+        flex: 1.1 0 0;
+    }
+
+    .large2 {
+        -ms-flex: 2.5 0 0;
+        -webkit-flex: 2.5 0 0;
+        flex: 2.5 0 0;
+    }
+
+    #text-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #line-wrapper {
+        height: 230px;
+    }
+
+    #console {
+        width: 390px;
+    }
+
+    .selector {
+        width: 180px;
+    }
+
+    #first-title {
+        width: 190px;
+    }
+
+}
+
+@media all and (max-width: 1100px) {
+    #text-container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .small {
+        -ms-flex: 1.3 0 0;
+        -webkit-flex: 1.3 0 0;
+        flex: 1.3 0 0;
+    }
+}
+
+@media all and (max-width: 980px) {
+
+    #share-menu {
+        display: inline-block;
+    }
+
+    .share-sub {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #logo {
+        height: 28px;
+        width: 28px;
+        left: 7px;
+        top: 7px;
+   
+        opacity: 0.4;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #charts {
+        display: none;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .mapboxgl-popup-content p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+
+    .small {
+        -ms-flex: 1 0 0;
+        -webkit-flex: 1 0 0;
+        flex: 1 0 0;
+    }
+
+    #bar-container {
+        display: none;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    #credit-button {
+        visibility: visible;
+    }
+
+}
+
+@media all and (max-width: 736px) {
+
+    #text-mask-wrapper {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    figure {
+        display: none;
+    }
+
+    .map-background {
+        background-attachment: scroll;
+    }
+
+    #map {
+        z-index: 4;
+    }
+
+    #year-container {
+        z-index: 7;
+    }
+
+    .year {
+        z-index: 6;
+    }
+
+    .small {
+        position: absolute;
+    }
+
+    .scrolltext {
+        opacity: 0.5;
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+    .year-highlight {
+        background-color: rgba(50, 59, 82, 0.88);
+    }
+
+    #console {
+        width: 370px;
+        margin: 5px;
+        padding: 5px 15px;
+        padding-right: 25px;
+    }
+
+    #key-mobile {
+        display: block;
+    }
+
+    #key-mobile li {
+        font-size: 11px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    .colour-key {
+        width: 8px;
+        height: 8px;
+        margin-right: 2px;
+    }
+
+    .selector {
+        width: 170px;
+    }
+
+    #list-group {
+        display: none;
+    }
+
+    #dropdown {
+        height: 80px;
+    }
+
+    #first-title {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 27px;
+        margin-block-start: 1em;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+
+    .scrolltext p {
+        font-size: 14.5px;
+    }
+
+    .scrolltext ul {
+        font-size: 12.5px !important;
+    }
+
+    .long-quote {
+        font-size: 12.5px !important;
+    }
+
+    #animation {
+        width: 300px;
+        height: 300px;
+    }
+
+    .credit {
+        font-size: 13px;
+    }
+
+    .mapboxgl-popup-content {
+        max-width: 200px;
+    }
+
+    #scroll-area {
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    #animation {
+        width: 240px;
+        height: 240px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-block-start: 0.5em;
+        line-height: 1.2em;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .credit {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 14.5px;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+
+    #console {
+        width: 180px;
+
+    }
+
+    .selector {
+        width: 140px;
+    }
+
+    #first-title {
+        width: 150px;
+    }
+
+    .scrolltext p {
+        font-size: 13.5px;
+    }
+
+    .scrolltext ul {
+        font-size: 11.5px !important;
+    }
+
+    .long-quote {
+        font-size: 11.5px !important;
+    }
+
+    #text-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #selectorStyle {
+        display: none;
+    }
+
+    #second-title {
+        display: none;
+    }
+
+    #key-mobile ul {
+        padding: 6px;
+    }
+
+    #keymobile li {
+        font-size: 10px;
+        padding-right: 8px;
+        padding-bottom: 3px;
+    }
+
+}
