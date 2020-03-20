@@ -176,6 +176,7 @@ class ScrollyTeller extends Component {
       }
     allPanels = []
     setActiveID = (id) => {
+        console.log(id)
         this.setState({
             activeId: id
         })

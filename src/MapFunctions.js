@@ -158,12 +158,13 @@ export default class MapFunctions extends Component {
 
         //   console.log(this.props.filter)
         if (this.props.activeYear !== this.state.currentYear) {
-            console.log("new year: " + this.props.activeYear)
+          //  console.log("new year: " + this.props.activeYear)
             this.setState({
-                currentYear: this.props.activeYear,
-                m_filterStartYear: ['<=', ['number', ['get', 'yearStart']], this.props.activeYear],
-                m_filterEndYear: ['>=', ['number', ['get', 'yearEnd']], this.props.activeYear]
+                currentYear: this.props.activeYear
+                
             })
+            this.m_filterStartYear = ['<=', ['number', ['get', 'yearStart']], this.props.activeYear]
+            this.m_filterEndYear =  ['>=', ['number', ['get', 'yearEnd']], this.props.activeYear]
             this.updateFilters()
         }
         if (this.props.types !== this.state.rawtypes) {
@@ -180,6 +181,7 @@ export default class MapFunctions extends Component {
             })
             this.updateFilters()
         }
+      
         this.init()
     }
     componentDidMount() {
