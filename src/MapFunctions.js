@@ -65,8 +65,8 @@ export default class MapFunctions extends Component {
                     type: 'geojson',
                     data: solarData,
                     cluster: false,
-                    clusterMaxZoom: 4,
-                    clusterRadius: 300
+                    clusterMaxZoom:1 ,
+                    clusterRadius: 30
                 })
 
                 this.map.addLayer({
@@ -83,9 +83,9 @@ export default class MapFunctions extends Component {
                             ['get', 'point_count'],
                             5,
                             50,
-                            10,
+                            7,
                             100,
-                            40
+                            10
                         ],
                         'circle-opacity': 0.3,
                         'circle-stroke-color': "#ffc83e",

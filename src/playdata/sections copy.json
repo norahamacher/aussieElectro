@@ -1,0 +1,206 @@
+{
+    "sections": [
+        {
+           
+            "year": 2005,
+            "paragraphs": [
+                {
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
+                },
+                {
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
+                },
+                {
+                    "text": "Keep scrolling to the year 2008 to see some actions and highlighting implemented. As you keep scrolling, the dots on the map will change according to the year as well."
+                }
+            ]
+        },
+        {
+            "year": 2008,
+            "paragraphs": [
+                {
+                    "text": "In 2008, each kilowatt hour of electricity generated in the UK adds 495 grammes of CO2 to the atmosphere (gCO2/kWh). This important metric – the “carbon intensity” of the electricity system – is to fall by nearly 60% by 2018. For now, electricity demand has been rising for decades and is close to record highs.",
+                    "features": [
+                        {
+                            "type": "link",
+                            "url": "https://www.carbonbrief.org/analysis-uk-electricity-generation-2018-falls-to-lowest-since-1994",
+                            "text": "record highs."
+                        }
+                    ]
+                },
+                {
+                    "text": "Although the face of the UK’s electricity system is starting to change, it is still dominated by large, centralised power plants – many of which were built decades earlier. Just 56 power stations burning coal, gas, oil or nuclear fuel account for the lion’s share of power capacity  and generate the vast majority of UK electricity. Coal’s share of generation has halved since the dash for gas in the 1990s, but some four-fifths of UK electricity still comes from fossil fuels – with another 13% from nuclear.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "type",
+                                "keywords": [
+                                    "coal",
+                                    "gas",
+                                    "oil",
+                                    "nuclear"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "text": "Encouraged by the Non Fossil Fuel Obligation and then the Renewables Obligation, a sprinkling of renewable plants have begun to appear. There are now 552 larger renewable sites – mostly fuelled by hydro, wind and wastes such as landfill gas – and another 3,150 small installations, including 2,400 solar rooftops. [These small sites are aggregated to local authority level and are only shown on the map when they total at least 1 megawatt (MW).] Despite their numbers, renewables supply just 6% of the UK’s electricity.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "type",
+                                "keywords": [
+                                    "hydro",
+                                    "wind",
+                                    "waste",
+                                    "solar"
+                                ]
+                            }
+                        }
+                    ],
+                    "features": [
+                        {
+                            "type": "link",
+                            "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev.energy.25.1.285",
+                            "text": "Non Fossil Fuel Obligation"
+                        },
+                        {
+                            "type": "link",
+                            "url": "https://www.ofgem.gov.uk/environmental-programmes/ro/about-ro",
+                            "text": "Renewables Obligation"
+                        }
+                    ]
+                },
+                {
+                    "text": "In January, Medway Council approves a new coal-fired power station at Kingsnorth in Kent. If built, it would be the country’s first for 24 years. The “Kingsnorth six”, who scaled the chimney of the existing Kingsnorth plant to protest against the plans, are acquitted in September. A new Kingsnorth plant is needed, according to owners E.ON, to meet rising electricity demand and to replace old capacity as it retires. However, demand actually falls for the next decade.",
+                    "actions": [
+                        {
+                            "highlight": {
+                                "type": "plant",
+                                "keywords": [
+                                   "Kingsnorth"
+                                ]
+                            }
+                        }
+                    ]
+                    
+                }
+
+            ]
+        },
+        
+        {
+            "year": 2012,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2013,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2014,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2015,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2016,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2017,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2018,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        },
+        {
+            "year": 2019,
+            "paragraphs": [
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                },
+                {
+                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                }
+            ]
+        }
+    ]
+}
