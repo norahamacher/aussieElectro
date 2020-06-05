@@ -98,7 +98,7 @@ class StoryParagraph extends Component {
         if(this.state.highlighted){
           if (this.props.actionFilter) { //if this has any actions supplied
          
-            this.props.actionFilter.action( this.props.actionFilter.types,true)
+            this.props.actionFilter.action( this.props.actionFilter.objects,true)
          //   this.m_mapFunctions.setFilterTypeString(this.m_filterArray)
            //TODO HERE this.props.actionFilter.action
           }

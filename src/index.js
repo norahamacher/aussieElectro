@@ -5,7 +5,9 @@ import './css/responsive.css'
 //import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import StoryPanel from './StoryPanel.js'
 //import * as d3 from 'd3'
-import data2 from './ukdata/power_stations.json'
+import dataCoal from './AUSdata/powerStations_coal.json'
+import dataSolar from './AUSdata/powerStations_solar.json'
+
 import MapFunctions from './MapFunctions';
 import sectiondata from './playdata/sections.json'
 import ScrollIntoView from 'react-scroll-into-view'
@@ -20,22 +22,7 @@ class ScrollyTeller extends Component {
 
       };
     componentDidUpdate(prevState) {
-        if (prevState.types !== this.state.types && prevState.types!==undefined) {
-            console.log(prevState.types)
-            console.log(this.state.types)
-            var vfilter = ["any"]
-            for (var i = 0; i < this.state.types.length; i++) {
-                var type = this.state.types[i]
-                if (type.active) {
-                    vfilter.push(["==", ["get", "type"], type.type])
-                }
-            }
-            this.setState({
-                filter: vfilter
-            })
-           // this.m_mapFunctions.setFilterTypeString(filter)
-        }
-
+     
         if(prevState.activeId !== this.state.activeId && prevState.activeId!==undefined){
             this.updatePercentages()
         }
@@ -46,19 +33,12 @@ class ScrollyTeller extends Component {
         sections: [],
         width: 0,
         height: 0,
-        filter: "",
         //the years should be read from a file with their corresponding html content
         // sorteddata: [],
         activeId: 0,
         panelHeight: 800,
         types: [{ "type": "Coal", "active": true },
-        { "type": "Gas", "active": true },
-        { "type": "Oil", "active": true },
-        { "type": "Nuclear", "active": true },
-        { "type": "Hydro", "active": true },
-        { "type": "Wind", "active": true },
-        { "type": "Waste", "active": true },
-        { "type": "Solar", "active": true }],
+                { "type": "Solar", "active":true}],
 
         percentages: [{ "type": "Coal", "percentage": 45 },
         { "type": "Gas", "percentage": 10  },
@@ -112,14 +92,23 @@ class ScrollyTeller extends Component {
             sections: sectiondata.sections
         })
 
-        console.log(sectiondata.sections)
-        var helperArray = {}
-        var tempArr = {}
+      //  console.log(sectiondata.sections)
+      
+        for(var j = 0; j< dataSolar.features.length;j++){
+       
+            dataSolar.features[j].properties.capacity/=1000;
+           
+        }
         //fill percentage calculations
-        for(var j =0; j < data2.features.length; j++){
+     /*  var helperArray = {}
+        var tempArr = {}  
+      for(var j =0; j < data2.features.length; j++){
             var obj = data2.features[j]
-            var yearstart = data2.features[j].properties.yearStart
-            var yearend = data2.features[j].properties.yearEnd
+            var yearstart = obj.properties.yearStart
+            var yearend = obj.properties.yearEnd
+            if(obj.properties.type === "Solar"){
+                obj.properties.capacity/=1000
+            }
             for(var k = yearstart; k <=yearend; k++){
                 if(tempArr[k]){
                     if(tempArr[k][obj.properties.type]){
@@ -134,6 +123,7 @@ class ScrollyTeller extends Component {
                     helperArray[k] = obj.properties.capacity
                 }
             }
+            
         }
        // console.log(helperArray)
         //now normalise to 100%
@@ -146,28 +136,28 @@ class ScrollyTeller extends Component {
         }
         this.setState({
             percentageCalcs: tempArr
-        })
+        })*/
 
         /* this needs to be done once at the beginning and then when the component updates */
-        var year = sectiondata.sections[0].year
+        /*var year = sectiondata.sections[0].year
        // console.log(year)
         var arr = []
         var yearPerc = tempArr[year]
      
         //console.log(yearPerc)
-        for(var key in yearPerc){
-            var obj = {"type" : key, "percentage" : yearPerc[key], "name": key}
-            arr.push(obj)
+        for(var key2 in yearPerc){
+            var obj2 = {"type" : key2, "percentage" : yearPerc[key2], "name": key2}
+            arr.push(obj2)
         }
         obj = {}
-        for(var i = 0; i < arr.length;i++){
+        for( i = 0; i < arr.length;i++){
             obj[arr[i].type] = arr[i].percentage
         }
         var t = []
         t.push(obj)
         this.setState({
             percentages: t
-        })
+        })*/
 
     }
 
@@ -176,7 +166,6 @@ class ScrollyTeller extends Component {
       }
     allPanels = []
     setActiveID = (id) => {
-        console.log(id)
         this.setState({
             activeId: id
         })
@@ -210,14 +199,23 @@ class ScrollyTeller extends Component {
                 for (j = 0; j < paragraphs[i].actions.length; j++) {
                     var action = paragraphs[i].actions[j]
                     if (action.highlight) {
-                        filter = {
-                            "action":this.setActiveMulti,
-                            "types": []
+                        if(action.highlight.type==="type"){
+                            filter = {
+
+                                "action":this.setActiveMulti,
+                                "objects": []
+                            }
+                        } else if ( action.highlight.type==="plant"){
+                            filter = {
+
+                                "action":this.setActiveName,
+                                "objects": []
+                            }
                         }
                         //highlight means highlight the words in the text with a class of the same name, and filter things on the map of this name
                         for (var k = 0; k < action.highlight.keywords.length; k++) {
                             paragraphs[i].text = paragraphs[i].text.replace(action.highlight.keywords[k], "<span class='" + action.highlight.keywords[k] + "'>" + action.highlight.keywords[k] + "</span>")
-                            filter.types.push(this.cap(action.highlight.keywords[k]))
+                            filter.objects.push(this.cap(action.highlight.keywords[k]))
 
                             //capitalise first letter otherwise the filter breaks 
                         }
@@ -240,13 +238,8 @@ class ScrollyTeller extends Component {
         var arr = null
         if(types===null){
              arr = [{ "type": "Coal", "active": true },
-             { "type": "Gas", "active": true },
-             { "type": "Oil", "active": true },
-             { "type": "Nuclear", "active": true },
-             { "type": "Hydro", "active": true },
-             { "type": "Wind", "active": true },
-             { "type": "Waste", "active": true },
-             { "type": "Solar", "active": true }]
+             { "type": "Solar", "active": true }
+            ]
              
         } else {
             arr = [{ "type": "Coal", "active": false },
@@ -288,6 +281,9 @@ class ScrollyTeller extends Component {
         })
     }
 
+    setActiveName = (name) => {
+        
+    }
     toggleActive=(ttype)=> {
          console.log(ttype)
         this.setState(state => {
@@ -333,7 +329,7 @@ class ScrollyTeller extends Component {
                     )}
                 </div>
                 <div className="MainContainer">
-                    <StackedBar  percentages={this.state.percentages} height={this.state.panelHeight}/>
+                {/*  <StackedBar  percentages={this.state.percentages} height={this.state.panelHeight}/>--> */}
                     <div className="Panels topDistance" style={{height: this.state.panelHeight}}>
 
                         {this.state.sections.map(
@@ -350,7 +346,7 @@ class ScrollyTeller extends Component {
                                 />
                             )}
                     </div>
-                    <MapFunctions types={this.state.types} data={data2} height={this.state.panelHeight} filter={this.state.filter} activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "2004"} />
+                    <MapFunctions types={this.state.types} coalData={dataCoal} solarData={dataSolar} height={this.state.panelHeight}  activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "2004"} />
                    
                 </div>
             </div>

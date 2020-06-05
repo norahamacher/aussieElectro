@@ -115,24 +115,7 @@
 
 @media all and (max-width: 980px) {
 
-    #share-menu {
-        display: inline-block;
-    }
-
-    .share-sub {
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    #logo {
-        height: 28px;
-        width: 28px;
-        left: 7px;
-        top: 7px;
    
-        opacity: 0.4;
-    }
-
     h1 {
         font-size: 29px;
     }
@@ -157,7 +140,7 @@
         font-size: 18px;
     }
 
-    .mapboxgl-popup-content p {
+    .popupDiv p {
         font-size: 13px;
         line-height: 17px;
     }
@@ -172,7 +155,7 @@
         flex: 1 0 0;
     }
 
-    #bar-container {
+    .leftSide {
         display: none;
     }
 
@@ -192,7 +175,7 @@
         display: none;
     }
 
-    #nav {
+    #yearNav {
         display: none;
     }
 
@@ -313,7 +296,7 @@
         font-size: 13px;
     }
 
-    .mapboxgl-popup-content {
+    .popupDiv {
         max-width: 200px;
     }
 
