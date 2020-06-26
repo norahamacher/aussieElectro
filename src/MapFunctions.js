@@ -18,17 +18,15 @@ export default class MapFunctions extends Component {
     self = null
     grump = null
     m_colors = {
-        "Coal": "#404040",
+        "Coal": "#91908d",
         "Storage": "#4e80e5",
         "Solar": "#ffc83e",
-        "Nuclear": "#dd54b6",
-        "Oil": "#a45edb",
         "Hydro": "#43cfef",
-        "Wave & Tidal": "#43cfef",
         "Wind": "#00a98e",
         "Biomass": "#A7B734",
-        "Waste": "#ea545c",
-        "Gas": "#cc9b7a",
+        "Waste": "#6b4b06",
+        "Solar2": "#ea545c",
+        "Gas": "#cc9b7a"
     }
 
     state = {
@@ -51,7 +49,7 @@ export default class MapFunctions extends Component {
             // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
             var coalData = this.props.coalData;//geojson.parse(data, {Point: ['latitude','longitude']})
             var solarData = this.props.solarData;
-        
+            var currentData = this.props.currentData;
             //  console.log(geojsondata)
             this.map.on('load', () => {
 
@@ -69,6 +67,10 @@ export default class MapFunctions extends Component {
                     clusterRadius: 30
                 })
 
+                this.map.addSource('currentFacilities', {
+                    type: 'geojson',
+                    data: currentData
+                })
                 this.map.addLayer({
                     id: 'clusters_solar',
                     type: 'circle',
@@ -126,7 +128,62 @@ export default class MapFunctions extends Component {
 
                     'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]]
                 });
-
+                this.map.addLayer({
+                    id: 'allpowerplants',
+                    type: 'circle',
+                    source:"currentFacilities",
+                    paint: {
+                    'circle-radius': {
+                        property: 'capacity',
+                        type: 'exponential',
+                        base: 0.8,
+                        stops: [
+                        [{zoom: 2, value: 1}, 0.2],
+                        [{zoom: 2, value: 2500}, 5],
+                        [{zoom: 4.5, value: 1}, 2],
+                        [{zoom: 4.5, value: 2500}, 21],
+                        [{zoom: 8, value: 1}, 4],
+                        [{zoom: 8, value: 2500}, 32],
+                        [{zoom: 12, value: 1}, 6],
+                        [{zoom: 12, value: 2500}, 37],
+                        [{zoom: 15, value: 1}, 8],
+                        [{zoom: 15, value: 2500}, 42]
+                        ]
+                    },
+                    'circle-color': [
+                        'match',
+                        ['get', 'type'],
+                        "Coal", "#ced1cc",
+                        "Storage", "#4e80e5",
+                        "Solar", "#ffc83e",
+                        "Hydro", "#43cfef",
+                        "Wind", "#00a98e",
+                        "Biomass", "#A7B734",
+                        "Solar2", "#ea545c",
+                        "Gas", "#cc9b7a",
+                        "Waste", "#6b4b06",
+                        /* other */ '#ccc'
+                    ],
+                    'circle-opacity': 0.3,
+                    'circle-stroke-color':  [
+                        'match',
+                        ['get', 'type'],
+                        "Coal", "#ced1cc",
+                        "Storage", "#4e80e5",
+                        "Solar", "#ffc83e",
+                        "Hydro", "#43cfef",
+                        "Wind", "#00a98e",
+                        "Biomass", "#A7B734",
+                        "Solar2", "#ea545c",
+                        "Gas", "#cc9b7a",
+                        "Waste", "#6b4b06",
+                         /*other,*/  '#ccc' 
+                    ],
+                        'circle-stroke-opacity': 1,
+                        'circle-stroke-width': 0.5,
+                    },
+                    'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType]
+                });
                 this.map.addLayer({
                     id: 'clusters_coal',
                     type: 'circle',
@@ -215,6 +272,78 @@ export default class MapFunctions extends Component {
                 self.map.getCanvas().style.cursor = '';
                 self.drawPopup(false)
             });
+
+            this.map.on('mouseenter', 'unclusters_coal', function (e) {
+                // Change the cursor style as a UI indicator.
+                //    console.log("enter: " + e.features[0].properties.site)
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mousemove', 'unclusters_coal', function (e) {
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mouseleave', 'unclusters_solar', function (e) {
+
+                self.map.getCanvas().style.cursor = '';
+                self.drawPopup(false)
+            });
+
+            this.map.on('mouseenter', 'unclusters_solar', function (e) {
+                // Change the cursor style as a UI indicator.
+                //    console.log("enter: " + e.features[0].properties.site)
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mousemove', 'unclusters_solar', function (e) {
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mouseleave', 'unclusters_solar', function (e) {
+
+                self.map.getCanvas().style.cursor = '';
+                self.drawPopup(false)
+            });
+
+            this.map.on('mouseenter', 'allpowerplants', function (e) {
+                // Change the cursor style as a UI indicator.
+                //    console.log("enter: " + e.features[0].properties.site)
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mousemove', 'allpowerplants', function (e) {
+                tooltip.setLngLat(e.lngLat);
+                self.grump = e.features[0]
+                self.map.getCanvas().style.cursor = 'pointer';
+                self.drawPopup(true)
+
+            })
+
+            this.map.on('mouseleave', 'allpowerplants', function (e) {
+
+                self.map.getCanvas().style.cursor = '';
+                self.drawPopup(false)
+            });
             // Change the cursor style as a UI indicator.
             this.map.getCanvas().style.cursor = 'pointer';
             this.m_initiated = true;
@@ -283,8 +412,8 @@ export default class MapFunctions extends Component {
         var decom = o.properties.yearEnd;
         var plantColor = this.m_colors[o.properties.type];
         var type2 = o.properties.type2;
-
-        this.setTooltip(show, plantColor, name, capacity, open, decom, type2)
+        var type = o.properties.type;
+        this.setTooltip(show, plantColor, name, capacity, open, type==="Solar" ? 9999 : decom, type=== "Solar" ? type : type2)
 
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears over the copy being pointed to.
@@ -309,13 +438,11 @@ export default class MapFunctions extends Component {
     updateFilters() {
         if (this.map.isStyleLoaded()) {
             // map.setFilter('powerplants', ['all', filterOperator, filterType, filterStartYear, filterEndYear, filterSite, filterCapacity]);
-            console.log(this.m_filterEndYear)
-            console.log(this.m_filterStartYear)
-            console.log(this.m_filterType)
             this.map.setFilter('unclusters_coal', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]] )
             this.map.setFilter('clusters_coal', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,['has','point_count']])
             this.map.setFilter('unclusters_solar', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]])
             this.map.setFilter('clusters_solar', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,['has','point_count']])
+            this.map.setFilter('allpowerplants',['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType])
         }
     }
 
@@ -343,13 +470,14 @@ export default class MapFunctions extends Component {
 
 }
 const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
+
     <div className={`colour-key popupDiv`}>
         <h3 className="popupHeading" style={{ color: color }}> {name}</h3>
         <div className="popupInfo" style={{ 'backgroundColor': color }} >
             <p><span className="label-title">Capacity: </span>{capacity}<span className="units">MW</span></p>
             {type2 !== "" ? <p><span className="label-title">Type: </span>{type2}</p> : ""}
-            <p><span className="label-title">Year opened: </span> {open} </p>
-            <p><span className="label-title"> Decomission: </span> {decom} </p>
+            {open !== undefined ? <p><span className="label-title">Year opened: </span> {open} </p> : ""}
+             {decom !== 9999 ?<p><span className="label-title"> Decomission: </span> {decom} </p> : ""}
 
         </div>
     </div>

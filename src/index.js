@@ -7,7 +7,7 @@ import StoryPanel from './StoryPanel.js'
 //import * as d3 from 'd3'
 import dataCoal from './AUSdata/powerStations_coal.json'
 import dataSolar from './AUSdata/powerStations_solar.json'
-
+import currentData from "./AUSdata/facility_registry.json"
 import MapFunctions from './MapFunctions';
 import sectiondata from './playdata/sections.json'
 import ScrollIntoView from 'react-scroll-into-view'
@@ -38,12 +38,18 @@ class ScrollyTeller extends Component {
         activeId: 0,
         panelHeight: 800,
         types: [{ "type": "Coal", "active": true },
-                { "type": "Solar", "active":true}],
+                { "type": "Solar", "active":true},
+                { "type": "Solar2", "active":true},
+                { "type": "Hydro", "active":true},
+                { "type": "Waste", "active":true},
+                { "type": "Storage", "active":true},
+                { "type": "Wind", "active":true},
+                { "type": "Gas", "active":true}],
 
         percentages: [{ "type": "Coal", "percentage": 45 },
         { "type": "Gas", "percentage": 10  },
-        { "type": "Oil", "percentage": 10  },
-        { "type": "Nuclear", "percentage": 15  },
+     //   { "type": "Oil", "percentage": 10  },
+    //    { "type": "Nuclear", "percentage": 15  },
         { "type": "Hydro", "percentage": 8  },
         { "type": "Wind", "percentage": 6  },
         { "type": "Waste", "percentage": 3  },
@@ -77,11 +83,13 @@ class ScrollyTeller extends Component {
         })
         //console.log(t)
     }
+
+   
+    
     UNSAFE_componentWillMount = function () {
         window.addEventListener('resize', this.updateDimensions);
         this.updateDimensions()
-        
-    
+       
         for (var i = 0; i < sectiondata.sections.length; i++) {
             sectiondata.sections[i].renderparagraphs = this.createPanelContent(sectiondata.sections[i].year, sectiondata.sections[i].paragraphs)
        //     console.log(sectiondata.sections[i].renderparagraphs)
@@ -237,19 +245,22 @@ class ScrollyTeller extends Component {
        
         var arr = null
         if(types===null){
-             arr = [{ "type": "Coal", "active": true },
-             { "type": "Solar", "active": true }
-            ]
+             arr =[{ "type": "Coal", "active": true },
+             { "type": "Gas", "active": true },
+             { "type": "Hydro", "active": true },
+             { "type": "Wind", "active": true },
+             { "type": "Waste", "active": true },
+             { "type": "Solar", "active": true },
+             { "type": "Solar2", "active": true }]
              
         } else {
             arr = [{ "type": "Coal", "active": false },
              { "type": "Gas", "active": false },
-             { "type": "Oil", "active": false },
-             { "type": "Nuclear", "active": false },
              { "type": "Hydro", "active": false },
              { "type": "Wind", "active": false },
              { "type": "Waste", "active": false },
-             { "type": "Solar", "active": false }]
+             { "type": "Solar", "active": false },
+             { "type": "Solar2", "active": true }]
              for(var i = 0; i < arr.length; i++){
                  for(var j = 0; j < types.length; j++){
                     if(arr[i].type === types[j]){
@@ -346,7 +357,7 @@ class ScrollyTeller extends Component {
                                 />
                             )}
                     </div>
-                    <MapFunctions types={this.state.types} coalData={dataCoal} solarData={dataSolar} height={this.state.panelHeight}  activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "2004"} />
+                    <MapFunctions types={this.state.types} coalData={dataCoal} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight}  activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "2004"} />
                    
                 </div>
             </div>
