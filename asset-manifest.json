@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/aussieElectro/static/css/main.0d73755e.chunk.css",
-    "main.js": "/aussieElectro/static/js/main.a282810e.chunk.js",
-    "main.js.map": "/aussieElectro/static/js/main.a282810e.chunk.js.map",
+    "main.css": "/aussieElectro/static/css/main.ffc10032.chunk.css",
+    "main.js": "/aussieElectro/static/js/main.7e6a6ea8.chunk.js",
+    "main.js.map": "/aussieElectro/static/js/main.7e6a6ea8.chunk.js.map",
     "runtime-main.js": "/aussieElectro/static/js/runtime-main.55e4441f.js",
     "runtime-main.js.map": "/aussieElectro/static/js/runtime-main.55e4441f.js.map",
     "static/js/2.482277bf.chunk.js": "/aussieElectro/static/js/2.482277bf.chunk.js",
     "static/js/2.482277bf.chunk.js.map": "/aussieElectro/static/js/2.482277bf.chunk.js.map",
     "index.html": "/aussieElectro/index.html",
-    "precache-manifest.830281e7b6c5242208a1369507c18cff.js": "/aussieElectro/precache-manifest.830281e7b6c5242208a1369507c18cff.js",
+    "precache-manifest.7b8f4ab2c1dade8a6691d16bb9d9cfe9.js": "/aussieElectro/precache-manifest.7b8f4ab2c1dade8a6691d16bb9d9cfe9.js",
     "service-worker.js": "/aussieElectro/service-worker.js",
-    "static/css/main.0d73755e.chunk.css.map": "/aussieElectro/static/css/main.0d73755e.chunk.css.map",
+    "static/css/main.ffc10032.chunk.css.map": "/aussieElectro/static/css/main.ffc10032.chunk.css.map",
     "static/js/2.482277bf.chunk.js.LICENSE.txt": "/aussieElectro/static/js/2.482277bf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.55e4441f.js",
     "static/js/2.482277bf.chunk.js",
-    "static/css/main.0d73755e.chunk.css",
-    "static/js/main.a282810e.chunk.js"
+    "static/css/main.ffc10032.chunk.css",
+    "static/js/main.7e6a6ea8.chunk.js"
   ]
 }
