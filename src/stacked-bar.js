@@ -3,41 +3,129 @@
 // zero data converted to 0.001 to avoid messing up the order of the colours if bars are added/removed
 import React, { PureComponent } from 'react';
 import {
-  BarChart, Bar, Legend
-} from 'recharts';
+  Bar
+} from 'react-chartjs-2';
 
-  
-  export default class Stackedbarchart extends PureComponent {
-    static jsfiddleUrl = 'https://jsfiddle.net/alidingling/90v76x08/';
-   
+import stacked100 from "chartjs-plugin-stacked100"
 
-    render() {
-      return (
-         <div>
-        <BarChart
-          width={this.props.width+20}
-          height={this.props.height}
-          data={this.props.percentages}
-          reverseStackOrder={true}
-        >
-         
-          <Bar dataKey="Coal" stackId="a" fill="#ced1cc" />
-          
-         
-          <Bar dataKey="Gas" stackId="a" fill="#cc9b7a" />
-          <Bar dataKey="Hydro" stackId="a" fill="#43cfef" />
-          <Bar dataKey="Oil" stackId="a" fill="#a45edb" />
-          <Bar dataKey="Nuclear" stackId="a" fill="#dd54b6" />
-          <Bar dataKey="Wind" stackId="a" fill="#00a98e" />
-          <Bar dataKey="Solar" stackId="a" fill="#ffc83e" />
-          <Bar dataKey="Biomass" stackId="a" fill="#A7B734" />
-            <Legend layout="vertical" align="left" verticalAlign="middle" iconType="rect"/>
-        </BarChart>
-        
-       </div>
-      );
-    }
+export default class Stackedbarchart extends PureComponent {
+  m_colors = {
+    "Coal": "#91908d",
+    "Solar": "#ffc83e",
+    "Hydro": "#43cfef",
+    "Wind": "#00a98e",
+    "Waste": "#6b4b06",
+    "Solar2": "#ea545c",
+    "Gas": "#cc9b7a"
   }
+
+  /*
+     "Coal", "#ced1cc",
+                          "Storage", "#4e80e5",
+                          "Solar", "#ffc83e",
+                          "Hydro", "#43cfef",
+                          "Wind", "#00a98e",
+                          "Biomass", "#A7B734",
+                          "Solar2", "#ea545c",
+                          "Gas", "#cc9b7a",
+                          "Waste", "#6b4b06",*/
+
+  state = {
+    data: {
+      labels: ["%"],
+      datasets: [{
+        label: 'Employee',
+        backgroundColor: "#caf270",
+        data: [12, 59, 5, 56, 58, 12, 59, 87, 45],
+      }]
+    },
+    percentages: null
+  }
+  componentDidUpdate() {
+
+    if(this.props.percentages!= this.state.percentages){
+    console.log(this.props.percentages)
+    var datasets = []
+    for (var i = 0; i < this.props.percentages.length; i++) {
+      var newObj = {}
+      newObj.label = this.props.percentages[i].type
+      newObj.backgroundColor = this.m_colors[newObj.label]
+      newObj.data = []
+      newObj.data[0] = this.props.percentages[i].percentage
+      datasets.push(newObj)
+    }
+
+    this.setState({
+      data: {
+        labels: ["%"],
+        datasets: datasets
+      },
+      percentages: this.props.percentages
+    })
+  }
+  }
+
+  componentDidMount(){
+
+    var datasets = []
+    for (var i = 0; i < this.props.percentages.length; i++) {
+      var newObj = {}
+      newObj.label = this.props.percentages[i].type
+      newObj.backgroundColor = this.m_colors[newObj.label]
+      newObj.data = []
+      newObj.data[0] = this.props.percentages[i].percentage
+      datasets.push(newObj)
+    }
+
+    this.setState({
+      data: {
+        labels: ["%"],
+        datasets: datasets
+      },
+      percentages: this.props.percentages
+    })
+  }
+  render() {
+    return (
+      <div>
+        <Bar
+          data={this.state.data}
+          width={this.props.width}
+          height={this.props.height}
+          options={{
+            tooltips: {
+              displayColors: true
+              
+            },
+            scales: {
+              xAxes: [{
+                stacked: true,
+                gridLines: {
+                  display: false,
+                }
+              }],
+              yAxes: [{
+                stacked: true,
+                gridLines: {
+                  display: true,
+                },
+                ticks: {
+                  beginAtZero: true,
+                  max: 100,
+                  stepSize: 20
+                }
+               
+              }]
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: { display: false }
+          }}
+        />
+      </div>
+    );
+  }
+}
 
 
 

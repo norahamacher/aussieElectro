@@ -19,12 +19,10 @@ code {
 .Panels{
   width:30%;
   min-height: 800px;
-  margin-left:15%
+  margin-left:15%;
 }
 
-.recharts-bar-rectangles {
-  border-radius: 5pt;
-}
+
 .MainContainer {
   display: flex;
   justify-content: space-between;
@@ -35,11 +33,13 @@ code {
 .topDistance{
   top: 100px
 }
-.leftSide {
-  width:5%;
+.mapBorder {
+  min-width: 60px;
   height:800px;
   position:fixed;
-  margin-left:50px;
+  right: 15px;
+  z-index: 50;
+ top:150px
 
 }
 
@@ -762,29 +762,6 @@ li {
 }
 
 
-
-#share-menu {
-  display: none;
-}
-
-.share-icons {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 9000;
-  color: #ffffff;
-  font-size: 13px;
-  padding: 5px;
-  padding-top: 0px;
-}
-
-.share-icons .fa-stack {
-  opacity: 0.4;
-}
-
-.share-icons .fa-stack:hover {
-  opacity: 1;
-}
 
 .units {
   font-size: 0.7em;

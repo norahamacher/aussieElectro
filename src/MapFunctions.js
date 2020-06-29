@@ -345,7 +345,6 @@ export default class MapFunctions extends Component {
 
         //   console.log(this.props.filter)
         if (this.props.activeYear !== this.state.currentYear) {
-                console.log("new year: " + this.props.activeYear)
             this.setState({
                 currentYear: this.props.activeYear
 
