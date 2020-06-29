@@ -328,7 +328,7 @@ class ScrollyTeller extends Component {
                             />
                     )}
                 </div>
-                <div className="navbar" id="typeNav">
+                <div className="navbar navbar_right" id="typeNav">
                     {this.state.types.map(
                         (type, i) =>
                             <NavMenuTypeItem
@@ -357,7 +357,7 @@ class ScrollyTeller extends Component {
                                 />
                             )}
                     </div>
-                    <MapFunctions types={this.state.types} coalData={dataCoal} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight}  activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "2004"} />
+                    <MapFunctions types={this.state.types} coalData={dataCoal} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight}  activeYear={this.state.sections !== undefined ?  this.state.sections[this.state.activeId].year : "1950"} />
                    
                 </div>
             </div>
@@ -373,7 +373,7 @@ class NavMenuTypeItem extends Component {
   
     render() {
       return (
-        <div onClick={this.handleClick} className={`navItem ${this.props.active ? "navItemActive" : ""}`}> {this.props.type} </div>
+        <div onClick={this.handleClick} className={`navItem navItemColor ${this.props.active ? "navItemActive_"+this.props.type :""}`}> {this.props.type} </div>
         
       );
     }
@@ -392,7 +392,7 @@ const NavMenuItem = ({ id, name, activeId }) => (
     <ScrollIntoView
         selector={`#section${name}`}
         alignToTop={true} >
-        <div className={`navItem ${id === activeId ? "navItemActive" : ""}`}> {name} </div>
+        <div className={`navItem ${id === activeId ? "navItemActive" : ""} `}> {name} </div>
     </ScrollIntoView>
 )
 ReactDOM.render(<ScrollyTeller />, document.getElementById('root'));

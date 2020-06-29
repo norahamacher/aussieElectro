@@ -9,10 +9,8 @@
                 },
                 {
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
-                },
-                {
-                    "text": "Keep scrolling to the year 2008 to see some actions and highlighting implemented. As you keep scrolling, the dots on the map will change according to the year as well."
                 }
+               
             ]
         },
        
@@ -21,14 +19,12 @@
             "year": 1970,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
+              
             ]
         },
   
@@ -36,28 +32,24 @@
             "year": 1980,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
+               
             ]
         },
         {
             "year": 1990,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
+              
             ]
         },
 
@@ -65,13 +57,10 @@
             "year": 2000,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
@@ -79,13 +68,10 @@
             "year": 2005,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
@@ -93,41 +79,70 @@
             "year": 2010,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
+
         {
-            "year": 2015,
+            "year": 2012,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
+   
+        {
+            "year": 2014,
+            "paragraphs": [
+                {
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
+                },
+                {
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
+                }
+            ]
+        },
+   
+        {
+            "year": 2016,
+            "paragraphs": [
+                {
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
+                },
+                {
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
+                }
+            ]
+        },
+   
+        {
+            "year": 2018,
+            "paragraphs": [
+                {
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
+                },
+                {
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
+                }
+            ]
+        },
+  
         {
             "year": 2020,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "Solar is disappearing here, because the available postcode data finishes in 2019. Of course, in 2020 and beyond, solar installations are still existant, just not reflected in data (yet). We can make assumptions here, or display the 2019 value."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
@@ -135,13 +150,10 @@
             "year": 2030,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
@@ -149,13 +161,10 @@
             "year": 2040,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         },
@@ -163,13 +172,10 @@
             "year": 2050,
             "paragraphs": [
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
                 },
                 {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
-                },
-                {
-                    "text": "Status: this will be proper content at some point. this will be proper content at some point. this will be proper content at some point .this will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some pointthis will be proper content at some point"
+                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
         }

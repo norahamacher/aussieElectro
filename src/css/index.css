@@ -539,49 +539,6 @@ li {
   color: #282f42;
 }
 
-.coal {
-  background-color: #ced1cc;
-}
-
-.gas {
-  background-color: #cc9b7a;
-}
-
-.hydro {
-  background-color: #43cfef;
-}
-
-.oil {
-  background-color: #a45edb;
-}
-
-.nuclear {
-  background-color: #dd54b6;
-}
-
-.solar {
-  background-color: #ffc83e;
-}
-
-.wind {
-  background-color: #00a98e;
-}
-
-.biomass {
-  background-color: #A7B734;
-}
-
-.waste {
-  background-color: #ea545c;
-}
-
-.storage {
-  background-color: #4e80e5;
-}
-
-.interconnector {
-  background-color: #ff8767;
-}
 
 #key-mobile {
   background-color: rgba(50, 59, 82, 0.88);
@@ -804,55 +761,7 @@ li {
   z-index: 6;
 }
 
-figure {
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
-}
 
-figure img {
-  height: 300px;
-  width: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  opacity: 1;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
-figcaption {
-  font-family: "PT Sans", sans-serif;
-  font-size: 13px;
-  margin: 0.8em;
-  color: #ffffff;
-  text-align: center;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(https://www.carbonbrief.org/wp-content/uploads/2018/04/arrow-for-map.png) 96% / 15% no-repeat #282f42;
-  background-size: 20px 13px;
-  border:2px;
-  padding: 4px;
-  color: #f3f3f3;
-  outline:0px;
-  cursor: pointer;
-}
-
-.selector {
-  width: 190px;
-  margin-right: 10px;
-}
-
-
-
-#logo:hover {
-  opacity: 1;
-}
 
 #share-menu {
   display: none;
@@ -982,6 +891,90 @@ input[type=range]::-moz-range-thumb {
   
 }
 
+/*NAVITEM COLOURS
+
+   "Coal", "#ced1cc",
+                        "Storage", "#4e80e5",
+                        "Solar", "#ffc83e",
+                        "Hydro", "#43cfef",
+                        "Wind", "#00a98e",
+                        "Biomass", "#A7B734",
+                        "Solar2", "#ea545c",
+                        "Gas", "#cc9b7a",
+                        "Waste", "#6b4b06",
+                        */
+
+
+.navItemColor {
+  border: 2px solid rgba(40, 47, 66, 0.9);
+  display:inline-block;
+ 
+}
+.navItemActive_Coal {
+  background-color: #ced1cc;
+
+  color: #333;
+
+}
+
+.navItemActive_Storage {
+  background-color: #4e80e5;
+
+
+}
+
+.navbar_right {
+  width: 50%;
+  right:0;
+  background-color:  rgba(40, 47, 66, 0.9);
+  display: flex;
+  justify-content: center;
+}
+.navItemActive_Solar {
+  background-color: #ffc83e;
+
+  color:  #333;
+
+}
+
+.navItemActive_Hydro {
+  background-color: #43cfef;
+
+
+}
+
+.navItemActive_Wind {
+  background-color: #00a98e;
+
+
+}
+
+.navItemActive_Biomass {
+  background-color: #A7B734;
+
+}
+
+.navItemActive_Solar2 {
+  background-color: #ea545c;
+
+
+}
+
+.navItemActive_Gas {
+  background-color: #cc9b7a;
+
+
+}
+
+.navItemActive_Waste {
+  background-color: #6b4b06;
+
+
+}
+
+.blackWriting {
+  color: black;
+}
 .popupHeading {
   margin-bottom: 2px
 }

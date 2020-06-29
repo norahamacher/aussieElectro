@@ -9,7 +9,7 @@
            "type": "Distillate",
            "site": "Amcor Glass",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2015
         },
         "geometry": {
@@ -28,7 +28,7 @@
            "type": "Distillate",
            "site": "Angaston",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -47,7 +47,7 @@
            "type": "Distillate",
            "site": "Bankstown Sports Club",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2018
         },
         "geometry": {
@@ -66,7 +66,7 @@
            "type": "Distillate",
            "site": "Bell Bay",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -85,7 +85,7 @@
            "type": "Distillate",
            "site": "Broken Hill",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -104,7 +104,7 @@
            "type": "Distillate",
            "site": "Blue Lake Milling",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2018
         },
         "geometry": {
@@ -123,7 +123,7 @@
            "type": "Distillate",
            "site": "Eraring",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -142,7 +142,7 @@
            "type": "Distillate",
            "site": "George Town",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -161,7 +161,7 @@
            "type": "Distillate",
            "site": "Hunter Economic Zone",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -180,7 +180,7 @@
            "type": "Distillate",
            "site": "Hunter Valley",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -199,7 +199,7 @@
            "type": "Distillate",
            "site": "Lonsdale",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -218,7 +218,7 @@
            "type": "Distillate",
            "site": "Mackay",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -237,7 +237,7 @@
            "type": "Distillate",
            "site": "Mt Stuart",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -256,7 +256,7 @@
            "type": "Distillate",
            "site": "Willoughby",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -275,7 +275,7 @@
            "type": "Distillate",
            "site": "Port Latta",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -294,7 +294,7 @@
            "type": "Distillate",
            "site": "Port Lincoln",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -313,7 +313,7 @@
            "type": "Distillate",
            "site": "Que River",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -332,7 +332,7 @@
            "type": "Distillate",
            "site": "Temporary Generation North",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -351,7 +351,7 @@
            "type": "Distillate",
            "site": "Temporary Generation South",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -370,7 +370,7 @@
            "type": "Distillate",
            "site": "Snuggery",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -389,7 +389,7 @@
            "type": "Distillate",
            "site": "Port Stanvac",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -408,7 +408,7 @@
            "type": "Distillate",
            "site": "St George Leagues Club",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -427,7 +427,7 @@
            "type": "Distillate",
            "site": "Southbank Institute Of Technology",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2019
         },
         "geometry": {
@@ -446,7 +446,7 @@
            "type": "Distillate",
            "site": "Tataria Bordertown",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -465,7 +465,7 @@
            "type": "Distillate",
            "site": "Western Suburbs League Club",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -484,7 +484,7 @@
            "type": "Distillate",
            "site": "West Illawarra Leagues Club",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -503,7 +503,7 @@
            "type": "Distillate",
            "site": "Geraldton diesel",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -522,7 +522,7 @@
            "type": "Distillate",
            "site": "Kemerton diesel",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -541,7 +541,7 @@
            "type": "Distillate",
            "site": "Northam diesel",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -560,7 +560,7 @@
            "type": "Distillate",
            "site": "Picton diesel",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -579,7 +579,7 @@
            "type": "Distillate",
            "site": "West Kalgoorlie",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -598,7 +598,7 @@
            "type": "Gas",
            "site": "Hallett",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -617,7 +617,7 @@
            "type": "Gas",
            "site": "Somerton",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -636,7 +636,7 @@
            "type": "Gas",
            "site": "Appin",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -655,7 +655,7 @@
            "type": "Gas",
            "site": "Braemar 2",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -674,7 +674,7 @@
            "type": "Gas",
            "site": "Barcaldine",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -693,7 +693,7 @@
            "type": "Gas",
            "site": "Barker Inlet",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -712,7 +712,7 @@
            "type": "Gas",
            "site": "Ballarat Hospital",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -731,7 +731,7 @@
            "type": "Gas",
            "site": "Bell Bay Three",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -750,7 +750,7 @@
            "type": "Gas",
            "site": "Bell Bay",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2010
         },
         "geometry": {
@@ -769,7 +769,7 @@
            "type": "Gas",
            "site": "Braemar",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -788,7 +788,7 @@
            "type": "Gas",
            "site": "Colongra",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -807,7 +807,7 @@
            "type": "Gas",
            "site": "Condamine  A",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -826,7 +826,7 @@
            "type": "Gas",
            "site": "Daandine",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -845,7 +845,7 @@
            "type": "Gas",
            "site": "Darling Downs",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -864,7 +864,7 @@
            "type": "Gas",
            "site": "Bairnsdale",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -883,7 +883,7 @@
            "type": "Gas",
            "site": "Dry Creek",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -902,7 +902,7 @@
            "type": "Gas",
            "site": "German Creek",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -921,7 +921,7 @@
            "type": "Gas",
            "site": "Glennies Creek",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -940,7 +940,7 @@
            "type": "Gas",
            "site": "Grosvenor 1",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -959,7 +959,7 @@
            "type": "Gas",
            "site": "Grosvenor 2",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -978,7 +978,7 @@
            "type": "Gas",
            "site": "Jeeralang A",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -997,7 +997,7 @@
            "type": "Gas",
            "site": "Jeeralang B",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1016,7 +1016,7 @@
            "type": "Gas",
            "site": "KRC Co-gen",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2012
         },
         "geometry": {
@@ -1035,7 +1035,7 @@
            "type": "Gas",
            "site": "Ladbroke Grove",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1054,7 +1054,7 @@
            "type": "Gas",
            "site": "Laverton North",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1073,7 +1073,7 @@
            "type": "Gas",
            "site": "Longford",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1092,7 +1092,7 @@
            "type": "Gas",
            "site": "Moranbah North",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1111,7 +1111,7 @@
            "type": "Gas",
            "site": "Mintaro",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1130,7 +1130,7 @@
            "type": "Gas",
            "site": "Moranbah",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1149,7 +1149,7 @@
            "type": "Gas",
            "site": "Mortlake",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1168,7 +1168,7 @@
            "type": "Gas",
            "site": "Newport",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1187,7 +1187,7 @@
            "type": "Gas",
            "site": "Pelican Point",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1206,7 +1206,7 @@
            "type": "Gas",
            "site": "Oakey",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1225,7 +1225,7 @@
            "type": "Gas",
            "site": "Oaky Creek 2",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1244,7 +1244,7 @@
            "type": "Gas",
            "site": "Oaky Creek",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1263,7 +1263,7 @@
            "type": "Gas",
            "site": "Osborne",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1282,7 +1282,7 @@
            "type": "Gas",
            "site": "Earthpower Biomass",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2013
         },
         "geometry": {
@@ -1301,7 +1301,7 @@
            "type": "Gas",
            "site": "Quarantine",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1320,7 +1320,7 @@
            "type": "Gas",
            "site": "Roma",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1339,7 +1339,7 @@
            "type": "Gas",
            "site": "Smithfield",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1358,7 +1358,7 @@
            "type": "Gas",
            "site": "Tahmoor",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1377,7 +1377,7 @@
            "type": "Gas",
            "site": "Tallawarra",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1396,7 +1396,7 @@
            "type": "Gas",
            "site": "Teralba",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1415,7 +1415,7 @@
            "type": "Gas",
            "site": "Traralgon Network Support",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1434,7 +1434,7 @@
            "type": "Gas",
            "site": "Torrens Island",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1453,7 +1453,7 @@
            "type": "Gas",
            "site": "Tower",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1472,7 +1472,7 @@
            "type": "Gas",
            "site": "Tamar Valley",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1491,7 +1491,7 @@
            "type": "Gas",
            "site": "Uranquinty",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1510,7 +1510,7 @@
            "type": "Gas",
            "site": "Valley  Peaking",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1529,7 +1529,7 @@
            "type": "Gas",
            "site": "Wilga Park",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1548,7 +1548,7 @@
            "type": "Gas",
            "site": "Wilga Park B",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1567,7 +1567,7 @@
            "type": "Gas",
            "site": "Townsville",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1586,7 +1586,7 @@
            "type": "Gas",
            "site": "Yarwun",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1605,7 +1605,7 @@
            "type": "Gas",
            "site": "Swanbank E",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1624,7 +1624,7 @@
            "type": "Gas",
            "site": "Cockburn",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1643,7 +1643,7 @@
            "type": "Gas",
            "site": "Kambalda",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1662,7 +1662,7 @@
            "type": "Gas",
            "site": "Kemerton",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1681,7 +1681,7 @@
            "type": "Gas",
            "site": "Kwinana",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1700,7 +1700,7 @@
            "type": "Gas",
            "site": "Kwinana Swift",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1719,7 +1719,7 @@
            "type": "Gas",
            "site": "Kwinana cogen",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1738,7 +1738,7 @@
            "type": "Gas",
            "site": "Merredin",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1757,7 +1757,7 @@
            "type": "Gas",
            "site": "Mungarra",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1776,7 +1776,7 @@
            "type": "Gas",
            "site": "Neerabup",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1795,7 +1795,7 @@
            "type": "Gas",
            "site": "Newgen Kwinana",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1814,7 +1814,7 @@
            "type": "Gas",
            "site": "Parkeston",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1833,7 +1833,7 @@
            "type": "Gas",
            "site": "Pinjar",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1852,7 +1852,7 @@
            "type": "Gas",
            "site": "Pinjara",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1871,7 +1871,7 @@
            "type": "Gas",
            "site": "Wagerup",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1890,7 +1890,7 @@
            "type": "Hydro",
            "site": "Banimboola",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1909,7 +1909,7 @@
            "type": "Hydro",
            "site": "Barron Gorge",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1928,7 +1928,7 @@
            "type": "Hydro",
            "site": "Bastyan",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1947,7 +1947,7 @@
            "type": "Hydro",
            "site": "Burrendong",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1966,7 +1966,7 @@
            "type": "Hydro",
            "site": "Brown Mountain",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -1985,7 +1985,7 @@
            "type": "Hydro",
            "site": "Burrinjuck",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2004,7 +2004,7 @@
            "type": "Hydro",
            "site": "Butlers Gorge",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2023,7 +2023,7 @@
            "type": "Hydro",
            "site": "Cethana",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2042,7 +2042,7 @@
            "type": "Hydro",
            "site": "Clover",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2061,7 +2061,7 @@
            "type": "Hydro",
            "site": "Cluny",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2080,7 +2080,7 @@
            "type": "Hydro",
            "site": "Copeton",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2099,7 +2099,7 @@
            "type": "Hydro",
            "site": "Dartmouth",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2118,7 +2118,7 @@
            "type": "Hydro",
            "site": "Devils Gate",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2137,7 +2137,7 @@
            "type": "Hydro",
            "site": "Eildon",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2156,7 +2156,7 @@
            "type": "Hydro",
            "site": "Eildon (Run of River)",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2175,7 +2175,7 @@
            "type": "Hydro",
            "site": "Fisher",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2194,7 +2194,7 @@
            "type": "Hydro",
            "site": "Glenbawn",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2213,7 +2213,7 @@
            "type": "Hydro",
            "site": "Glenmaggie",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2232,7 +2232,7 @@
            "type": "Hydro",
            "site": "Gordon",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2251,7 +2251,7 @@
            "type": "Hydro",
            "site": "Hallam",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2270,7 +2270,7 @@
            "type": "Hydro",
            "site": "Hume (NSW)",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2289,7 +2289,7 @@
            "type": "Hydro",
            "site": "Hume (VIC)",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2308,7 +2308,7 @@
            "type": "Hydro",
            "site": "John Butters",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2327,7 +2327,7 @@
            "type": "Hydro",
            "site": "Jindabyne (Mini Hydro)",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2346,7 +2346,7 @@
            "type": "Hydro",
            "site": "Jounama (Mini Hydro)",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2365,7 +2365,7 @@
            "type": "Hydro",
            "site": "Kareeya",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2384,7 +2384,7 @@
            "type": "Hydro",
            "site": "Keepit",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2403,7 +2403,7 @@
            "type": "Hydro",
            "site": "Lemonthyme/Wilmot",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2422,7 +2422,7 @@
            "type": "Hydro",
            "site": "Catagunya/Liapootah/Wayatinah",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2441,7 +2441,7 @@
            "type": "Hydro",
            "site": "Lake Echo",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2460,7 +2460,7 @@
            "type": "Hydro",
            "site": "Mackintosh",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2479,7 +2479,7 @@
            "type": "Hydro",
            "site": "Bogong/Mackay",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2498,7 +2498,7 @@
            "type": "Hydro",
            "site": "Meadowbank",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2517,7 +2517,7 @@
            "type": "Hydro",
            "site": "Midlands",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2536,7 +2536,7 @@
            "type": "Hydro",
            "site": "Murray",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2555,7 +2555,7 @@
            "type": "Hydro",
            "site": "Paloona",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2574,7 +2574,7 @@
            "type": "Hydro",
            "site": "Pindari",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2593,7 +2593,7 @@
            "type": "Hydro",
            "site": "Poatina",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2612,7 +2612,7 @@
            "type": "Hydro",
            "site": "Poatina",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2631,7 +2631,7 @@
            "type": "Hydro",
            "site": "Reece",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2650,7 +2650,7 @@
            "type": "Hydro",
            "site": "Repulse",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2669,7 +2669,7 @@
            "type": "Hydro",
            "site": "Rowallan",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2688,7 +2688,7 @@
            "type": "Hydro",
            "site": "Rubicon",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2707,7 +2707,7 @@
            "type": "Hydro",
            "site": "Tumut",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2726,7 +2726,7 @@
            "type": "Hydro",
            "site": "Guthega",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2745,7 +2745,7 @@
            "type": "Hydro",
            "site": "Blowering",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2764,7 +2764,7 @@
            "type": "Hydro",
            "site": "Tarraleah",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2783,7 +2783,7 @@
            "type": "Hydro",
            "site": "Terminal Storage (Mini Hydro)",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2017
         },
         "geometry": {
@@ -2802,7 +2802,7 @@
            "type": "Hydro",
            "site": "The Drop",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2821,7 +2821,7 @@
            "type": "Hydro",
            "site": "Trevallyn",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2840,7 +2840,7 @@
            "type": "Hydro",
            "site": "Tribute",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2859,7 +2859,7 @@
            "type": "Hydro",
            "site": "Tungatinah",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2878,7 +2878,7 @@
            "type": "Hydro",
            "site": "Warragamba",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2013
         },
         "geometry": {
@@ -2897,7 +2897,7 @@
            "type": "Hydro",
            "site": "Wivenhoe",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2916,7 +2916,7 @@
            "type": "Hydro",
            "site": "Wivenhoe (Mini Hydro)",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2935,7 +2935,7 @@
            "type": "Hydro",
            "site": "West Kiewa",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2954,7 +2954,7 @@
            "type": "Hydro",
            "site": "Wyangala A",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2973,7 +2973,7 @@
            "type": "Hydro",
            "site": "Wyangala B",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -2992,7 +2992,7 @@
            "type": "Hydro",
            "site": "Yarrawonga",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3011,7 +3011,7 @@
            "type": "Pumps",
            "site": "Shoalhaven",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3030,7 +3030,7 @@
            "type": "Pumps",
            "site": "Tumut 3",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3049,7 +3049,7 @@
            "type": "Pumps",
            "site": "Jindabyne Pump",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3068,7 +3068,7 @@
            "type": "Solar2",
            "site": "Baking Board",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3087,7 +3087,7 @@
            "type": "Solar2",
            "site": "Bannerton",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3106,7 +3106,7 @@
            "type": "Solar2",
            "site": "Barcaldine",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3125,7 +3125,7 @@
            "type": "Solar2",
            "site": "Beryl",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3144,7 +3144,7 @@
            "type": "Solar2",
            "site": "Bungala One",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3163,7 +3163,7 @@
            "type": "Solar2",
            "site": "Bungala Two",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3182,7 +3182,7 @@
            "type": "Solar2",
            "site": "Broken Hill",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3201,7 +3201,7 @@
            "type": "Solar2",
            "site": "Capital East",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3220,7 +3220,7 @@
            "type": "Solar2",
            "site": "Childers",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3239,7 +3239,7 @@
            "type": "Solar2",
            "site": "Clare",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3258,7 +3258,7 @@
            "type": "Solar2",
            "site": "Clermont",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3277,7 +3277,7 @@
            "type": "Solar2",
            "site": "Coleambally",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3296,7 +3296,7 @@
            "type": "Solar2",
            "site": "Collinsville",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3315,7 +3315,7 @@
            "type": "Solar2",
            "site": "Daydream",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3334,7 +3334,7 @@
            "type": "Solar2",
            "site": "Darling Downs",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3353,7 +3353,7 @@
            "type": "Solar2",
            "site": "Emerald",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3372,7 +3372,7 @@
            "type": "Solar2",
            "site": "Finley",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3391,7 +3391,7 @@
            "type": "Solar2",
            "site": "Gannawarra",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3410,7 +3410,7 @@
            "type": "Solar2",
            "site": "Griffith",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3429,7 +3429,7 @@
            "type": "Solar2",
            "site": "Hamilton",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3448,7 +3448,7 @@
            "type": "Solar2",
            "site": "Haughton",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3467,7 +3467,7 @@
            "type": "Solar2",
            "site": "Hayman",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3486,7 +3486,7 @@
            "type": "Solar2",
            "site": "Hughenden",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3505,7 +3505,7 @@
            "type": "Solar2",
            "site": "Karadoc",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3524,7 +3524,7 @@
            "type": "Solar2",
            "site": "Kidston",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3543,7 +3543,7 @@
            "type": "Solar2",
            "site": "Lilyvale",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3562,7 +3562,7 @@
            "type": "Solar2",
            "site": "Longreach",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3581,7 +3581,7 @@
            "type": "Solar2",
            "site": "Manildra",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3600,7 +3600,7 @@
            "type": "Solar2",
            "site": "Mugga Lane",
            "state": "ACT",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3619,7 +3619,7 @@
            "type": "Solar2",
            "site": "Moree",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3638,7 +3638,7 @@
            "type": "Solar2",
            "site": "Narromine",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3657,7 +3657,7 @@
            "type": "Solar2",
            "site": "Nevertire",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3676,7 +3676,7 @@
            "type": "Solar2",
            "site": "Numurkah",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3695,7 +3695,7 @@
            "type": "Solar2",
            "site": "Nyngan",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3714,7 +3714,7 @@
            "type": "Solar2",
            "site": "Oakey 1",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3733,7 +3733,7 @@
            "type": "Solar2",
            "site": "Oakey 2",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3752,7 +3752,7 @@
            "type": "Solar2",
            "site": "Parkes",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3771,7 +3771,7 @@
            "type": "Solar2",
            "site": "Royalla",
            "state": "ACT",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3790,7 +3790,7 @@
            "type": "Solar2",
            "site": "Ross River",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3809,7 +3809,7 @@
            "type": "Solar2",
            "site": "Rugby Run",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3828,7 +3828,7 @@
            "type": "Solar2",
            "site": "South Keswick",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3847,7 +3847,7 @@
            "type": "Solar2",
            "site": "Sun Metals",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3866,7 +3866,7 @@
            "type": "Solar2",
            "site": "Susan River",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3885,7 +3885,7 @@
            "type": "Solar2",
            "site": "Tailem Bend  1",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3904,7 +3904,7 @@
            "type": "Solar2",
            "site": "Sunshine Coast",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3923,7 +3923,7 @@
            "type": "Solar2",
            "site": "Wemen",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3942,7 +3942,7 @@
            "type": "Solar2",
            "site": "Whitsunday",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3961,7 +3961,7 @@
            "type": "Solar2",
            "site": "White Rock",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3980,7 +3980,7 @@
            "type": "Solar2",
            "site": "Limondale SF",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -3999,7 +3999,7 @@
            "type": "Solar2",
            "site": "Greenough River",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4018,7 +4018,7 @@
            "type": "Solar2",
            "site": "Metro",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4037,7 +4037,7 @@
            "type": "Solar2",
            "site": "Northam",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4056,7 +4056,7 @@
            "type": "Storage",
            "site": "Ballarat Battery",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4075,7 +4075,7 @@
            "type": "Waste",
            "site": "West Nowra",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4094,7 +4094,7 @@
            "type": "Waste",
            "site": "Kemps Creek",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4113,7 +4113,7 @@
            "type": "Waste",
            "site": "Awaba",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2019
         },
         "geometry": {
@@ -4132,7 +4132,7 @@
            "type": "Waste",
            "site": "Berwick",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4151,7 +4151,7 @@
            "type": "Waste",
            "site": "Bolivar Waste Water Treatment",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4170,7 +4170,7 @@
            "type": "Waste",
            "site": "Browns Plains",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4189,7 +4189,7 @@
            "type": "Waste",
            "site": "Broadmeadows",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4208,7 +4208,7 @@
            "type": "Waste",
            "site": "Brooklyn",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4227,7 +4227,7 @@
            "type": "Waste",
            "site": "Broadwater",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4246,7 +4246,7 @@
            "type": "Waste",
            "site": "Clayton",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4265,7 +4265,7 @@
            "type": "Waste",
            "site": "Condong",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4284,7 +4284,7 @@
            "type": "Waste",
            "site": "Corio",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4303,7 +4303,7 @@
            "type": "Waste",
            "site": "Eastern Creek",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4322,7 +4322,7 @@
            "type": "Waste",
            "site": "Eastern Creek 2",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4341,7 +4341,7 @@
            "type": "Waste",
            "site": "Roghan Road",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2019
         },
         "geometry": {
@@ -4360,7 +4360,7 @@
            "type": "Waste",
            "site": "Grange Avenue",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4379,7 +4379,7 @@
            "type": "Waste",
            "site": "Hallam Road",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4398,7 +4398,7 @@
            "type": "Waste",
            "site": "Highbury",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -4417,7 +4417,7 @@
            "type": "Waste",
            "site": "Isis Central Sugar Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4436,7 +4436,7 @@
            "type": "Waste",
            "site": "Invicta Sugar Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4455,7 +4455,7 @@
            "type": "Waste",
            "site": "Jacks Gully",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4474,7 +4474,7 @@
            "type": "Waste",
            "site": "Kincumber",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4493,7 +4493,7 @@
            "type": "Waste",
            "site": "Lucas Heights 2",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4512,7 +4512,7 @@
            "type": "Waste",
            "site": "Lucas Heights 2",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2013
         },
         "geometry": {
@@ -4531,7 +4531,7 @@
            "type": "Waste",
            "site": "Mornington Waste Disposal",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2018
         },
         "geometry": {
@@ -4550,7 +4550,7 @@
            "type": "Waste",
            "site": "Pedler Creek",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2017
         },
         "geometry": {
@@ -4569,7 +4569,7 @@
            "type": "Waste",
            "site": "Pioneer Sugar Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4588,7 +4588,7 @@
            "type": "Waste",
            "site": "Racecourse Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4607,7 +4607,7 @@
            "type": "Waste",
            "site": "Remount",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4626,7 +4626,7 @@
            "type": "Waste",
            "site": "Rochedale",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4645,7 +4645,7 @@
            "type": "Waste",
            "site": "Rocky Point Co-gen",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4664,7 +4664,7 @@
            "type": "Waste",
            "site": "Shepparton Wastewater Treatment",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4683,7 +4683,7 @@
            "type": "Waste",
            "site": "Stapylton",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4702,7 +4702,7 @@
            "type": "Waste",
            "site": "Suncoast Gold Macadamias",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -4721,7 +4721,7 @@
            "type": "Waste",
            "site": "Springvale",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4740,7 +4740,7 @@
            "type": "Waste",
            "site": "Tableland Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4759,7 +4759,7 @@
            "type": "Waste",
            "site": "Tatura Biomass",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4778,7 +4778,7 @@
            "type": "Waste",
            "site": "Tea Tree Gully",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2016
         },
         "geometry": {
@@ -4797,7 +4797,7 @@
            "type": "Waste",
            "site": "Veolia Ti Tree Bio Reactor",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4816,7 +4816,7 @@
            "type": "Waste",
            "site": "Victoria Mill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4835,7 +4835,7 @@
            "type": "Waste",
            "site": "Woodlawn Bioreactor",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4854,7 +4854,7 @@
            "type": "Waste",
            "site": "Whitwood Road",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4873,7 +4873,7 @@
            "type": "Waste",
            "site": "Wingfield 1",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4892,7 +4892,7 @@
            "type": "Waste",
            "site": "Wingfield 2",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4911,7 +4911,7 @@
            "type": "Waste",
            "site": "Wollert",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4930,7 +4930,7 @@
            "type": "Waste",
            "site": "Woy Woy",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4949,7 +4949,7 @@
            "type": "Waste",
            "site": "Wyndham",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 2018
         },
         "geometry": {
@@ -4968,7 +4968,7 @@
            "type": "Waste",
            "site": "Gosnells",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -4987,7 +4987,7 @@
            "type": "Waste",
            "site": "Henderson",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5006,7 +5006,7 @@
            "type": "Waste",
            "site": "Kalamunda",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5025,7 +5025,7 @@
            "type": "Waste",
            "site": "Manjimup",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5044,7 +5044,7 @@
            "type": "Waste",
            "site": "Mirrabooka",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5063,7 +5063,7 @@
            "type": "Waste",
            "site": "Red Hill",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5082,7 +5082,7 @@
            "type": "Waste",
            "site": "Richgro",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5101,7 +5101,7 @@
            "type": "Waste",
            "site": "Rockingham",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5120,7 +5120,7 @@
            "type": "Waste",
            "site": "South Cardup",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5139,7 +5139,7 @@
            "type": "Waste",
            "site": "Tamala Park",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5158,7 +5158,7 @@
            "type": "Wind",
            "site": "Ararat",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5177,7 +5177,7 @@
            "type": "Wind",
            "site": "Bald Hills",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5196,7 +5196,7 @@
            "type": "Wind",
            "site": "The Bluff",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5215,7 +5215,7 @@
            "type": "Wind",
            "site": "Boco Rock",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5234,7 +5234,7 @@
            "type": "Wind",
            "site": "Bodangora",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5253,7 +5253,7 @@
            "type": "Wind",
            "site": "Canunda",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5272,7 +5272,7 @@
            "type": "Wind",
            "site": "Capital",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5291,7 +5291,7 @@
            "type": "Wind",
            "site": "Cathedral Rocks",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5310,7 +5310,7 @@
            "type": "Wind",
            "site": "Coonoer Bridge",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5329,7 +5329,7 @@
            "type": "Wind",
            "site": "Challicum Hills",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5348,7 +5348,7 @@
            "type": "Wind",
            "site": "Chepstowe",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5367,7 +5367,7 @@
            "type": "Wind",
            "site": "Clements Gap",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5386,7 +5386,7 @@
            "type": "Wind",
            "site": "Codrington",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5405,7 +5405,7 @@
            "type": "Wind",
            "site": "Coopers Gap",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5424,7 +5424,7 @@
            "type": "Wind",
            "site": "Crookwell 2",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5443,7 +5443,7 @@
            "type": "Wind",
            "site": "Crowlands",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5462,7 +5462,7 @@
            "type": "Wind",
            "site": "Cullerin Range",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5481,7 +5481,7 @@
            "type": "Wind",
            "site": "Granville Harbour",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5500,7 +5500,7 @@
            "type": "Wind",
            "site": "Gullen Range",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5519,7 +5519,7 @@
            "type": "Wind",
            "site": "Gunning",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5538,7 +5538,7 @@
            "type": "Wind",
            "site": "Hallett 1",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5557,7 +5557,7 @@
            "type": "Wind",
            "site": "Hallett 2",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5576,7 +5576,7 @@
            "type": "Wind",
            "site": "Hepburn Wind",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5595,7 +5595,7 @@
            "type": "Wind",
            "site": "Hornsdale",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5614,7 +5614,7 @@
            "type": "Wind",
            "site": "Hornsdale  2",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5633,7 +5633,7 @@
            "type": "Wind",
            "site": "Hornsdale  3",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5652,7 +5652,7 @@
            "type": "Wind",
            "site": "Kiata",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5671,7 +5671,7 @@
            "type": "Wind",
            "site": "Lincoln Gap",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5690,7 +5690,7 @@
            "type": "Wind",
            "site": "Lake Bonney  1",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5709,7 +5709,7 @@
            "type": "Wind",
            "site": "Lake Bonney 3",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5728,7 +5728,7 @@
            "type": "Wind",
            "site": "Lake Bonney 2",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5747,7 +5747,7 @@
            "type": "Wind",
            "site": "Macarthur",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5766,7 +5766,7 @@
            "type": "Wind",
            "site": "Maroona",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5785,7 +5785,7 @@
            "type": "Wind",
            "site": "Mt Emerald",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5804,7 +5804,7 @@
            "type": "Wind",
            "site": "Mortons Lane",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5823,7 +5823,7 @@
            "type": "Wind",
            "site": "Mt Gellibrand",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5842,7 +5842,7 @@
            "type": "Wind",
            "site": "Mt Mercer",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5861,7 +5861,7 @@
            "type": "Wind",
            "site": "Mt Millar",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5880,7 +5880,7 @@
            "type": "Wind",
            "site": "Musselroe",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5899,7 +5899,7 @@
            "type": "Wind",
            "site": "Murra Warra",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5918,7 +5918,7 @@
            "type": "Wind",
            "site": "North Brown Hill",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5937,7 +5937,7 @@
            "type": "Wind",
            "site": "Oaklands Hill",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5956,7 +5956,7 @@
            "type": "Wind",
            "site": "Portland",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5975,7 +5975,7 @@
            "type": "Wind",
            "site": "Salt Creek",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -5994,7 +5994,7 @@
            "type": "Wind",
            "site": "Sapphire",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6013,7 +6013,7 @@
            "type": "Wind",
            "site": "Snowtown North",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6032,7 +6032,7 @@
            "type": "Wind",
            "site": "Snowtown South",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6051,7 +6051,7 @@
            "type": "Wind",
            "site": "Snowtown",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6070,7 +6070,7 @@
            "type": "Wind",
            "site": "Starfish Hill",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6089,7 +6089,7 @@
            "type": "Wind",
            "site": "Silverton",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6108,7 +6108,7 @@
            "type": "Wind",
            "site": "Taralga",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6127,7 +6127,7 @@
            "type": "Wind",
            "site": "Timboon West",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6146,7 +6146,7 @@
            "type": "Wind",
            "site": "Toora",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6165,7 +6165,7 @@
            "type": "Wind",
            "site": "Waterloo",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6184,7 +6184,7 @@
            "type": "Wind",
            "site": "Waubra",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6203,7 +6203,7 @@
            "type": "Wind",
            "site": "Willogoleche",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6222,7 +6222,7 @@
            "type": "Wind",
            "site": "Windy Hill",
            "state": "QLD",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6241,7 +6241,7 @@
            "type": "Wind",
            "site": "Wonthaggi",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6260,7 +6260,7 @@
            "type": "Wind",
            "site": "Woodlawn",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6279,7 +6279,7 @@
            "type": "Wind",
            "site": "Woolnorth",
            "state": "TAS",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6298,7 +6298,7 @@
            "type": "Wind",
            "site": "Wattle Point",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6317,7 +6317,7 @@
            "type": "Wind",
            "site": "White Rock",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6336,7 +6336,7 @@
            "type": "Wind",
            "site": "Yambuk",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6355,7 +6355,7 @@
            "type": "Wind",
            "site": "Yawong",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6374,7 +6374,7 @@
            "type": "Wind",
            "site": "Yendon",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6393,7 +6393,7 @@
            "type": "Wind",
            "site": "Yaloak South",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6412,7 +6412,7 @@
            "type": "Wind",
            "site": "Blayney",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6431,7 +6431,7 @@
            "type": "Wind",
            "site": "Crookwell",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6450,7 +6450,7 @@
            "type": "Wind",
            "site": "Hampton",
            "state": "NSW",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6469,7 +6469,7 @@
            "type": "Wind",
            "site": "Albany",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6488,7 +6488,7 @@
            "type": "Wind",
            "site": "Badgingarra",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6507,7 +6507,7 @@
            "type": "Wind",
            "site": "Bremer Bay",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6526,7 +6526,7 @@
            "type": "Wind",
            "site": "Collgar",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6545,7 +6545,7 @@
            "type": "Wind",
            "site": "Denmark",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6564,7 +6564,7 @@
            "type": "Wind",
            "site": "Emu Downs",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6583,7 +6583,7 @@
            "type": "Wind",
            "site": "Grasmere",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6602,7 +6602,7 @@
            "type": "Wind",
            "site": "Kalbarri",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6621,7 +6621,7 @@
            "type": "Wind",
            "site": "Karakin",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6640,7 +6640,7 @@
            "type": "Wind",
            "site": "Mount Barker",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6659,7 +6659,7 @@
            "type": "Wind",
            "site": "Mumbida",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6678,7 +6678,7 @@
            "type": "Wind",
            "site": "Walkaway",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6697,7 +6697,7 @@
            "type": "Wind",
            "site": "West Hills",
            "state": "WA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6716,7 +6716,7 @@
            "type": "Storage",
            "site": "Dalrymple North Battery",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6735,7 +6735,7 @@
            "type": "Storage",
            "site": "Gannawarra Battery",
            "state": "VIC",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {
@@ -6754,7 +6754,7 @@
            "type": "Storage",
            "site": "Hornsdale Power Reserve",
            "state": "SA",
-           "yearStart": 1950,
+           "yearStart": 2010,
            "yearEnd": 9999
         },
         "geometry": {

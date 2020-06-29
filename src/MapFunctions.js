@@ -20,7 +20,7 @@ export default class MapFunctions extends Component {
     m_colors = {
         "Coal": "#91908d",
         "Storage": "#4e80e5",
-        "Solar": "#ffc83e",
+        "Solar": "#a18600",
         "Hydro": "#43cfef",
         "Wind": "#00a98e",
         "Biomass": "#A7B734",
@@ -63,38 +63,15 @@ export default class MapFunctions extends Component {
                     type: 'geojson',
                     data: solarData,
                     cluster: false,
-                    clusterMaxZoom:1 ,
-                    clusterRadius: 30
+                    clusterMaxZoom:6,
+                    clusterRadius: 50
                 })
 
                 this.map.addSource('currentFacilities', {
                     type: 'geojson',
                     data: currentData
                 })
-                this.map.addLayer({
-                    id: 'clusters_solar',
-                    type: 'circle',
-                    source: 'powerplantSource_Solar',
-                    filter: ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,  ['has', 'point_count']],
-                    
-                    paint: {
-                       
-                        'circle-color': "#ffc83e",
-                        'circle-radius': [
-                            'step',
-                            ['get', 'point_count'],
-                            5,
-                            50,
-                            7,
-                            100,
-                            10
-                        ],
-                        'circle-opacity': 0.3,
-                        'circle-stroke-color': "#ffc83e",
-                        'circle-stroke-opacity': 1,
-                        'circle-stroke-width': 0.5
-                    }
-                });
+              
                 this.map.addLayer({
                     id: 'unclusters_solar',
                     type: 'circle',
@@ -113,15 +90,15 @@ export default class MapFunctions extends Component {
                             stops: [
 
                                 [{ zoom: 2, value: 1 }, 1],
-                                [{ zoom: 2, value: 2500 }, 5],
+                     
                                 [{ zoom: 4.5, value: 1 }, 2],
-                                [{ zoom: 4.5, value: 2500 }, 21],
+                 
                                 [{ zoom: 8, value: 1 }, 4],
-                                [{ zoom: 8, value: 2500 }, 32],
-                                [{ zoom: 12, value: 1 }, 6],
-                                [{ zoom: 12, value: 2500 }, 37],
-                                [{ zoom: 15, value: 1 }, 8],
-                                [{ zoom: 15, value: 2500 }, 42]
+               
+                                [{ zoom: 12, value: 1 },6],
+           
+                                [{ zoom: 15, value: 1 }, 8]
+          
                             ]
                         },
                     },
@@ -136,18 +113,18 @@ export default class MapFunctions extends Component {
                     'circle-radius': {
                         property: 'capacity',
                         type: 'exponential',
-                        base: 0.8,
+                        base: 2,
                         stops: [
-                        [{zoom: 2, value: 1}, 0.2],
-                        [{zoom: 2, value: 2500}, 5],
-                        [{zoom: 4.5, value: 1}, 2],
-                        [{zoom: 4.5, value: 2500}, 21],
-                        [{zoom: 8, value: 1}, 4],
-                        [{zoom: 8, value: 2500}, 32],
-                        [{zoom: 12, value: 1}, 6],
-                        [{zoom: 12, value: 2500}, 37],
-                        [{zoom: 15, value: 1}, 8],
-                        [{zoom: 15, value: 2500}, 42]
+                        [{zoom: 2, value: 1}, 1],
+                        [{zoom: 2, value: 1000}, 6],
+                        [{zoom: 4.5, value: 1}, 3],
+                        [{zoom: 4.5, value: 1000}, 18],
+                        [{zoom: 8, value: 1}, 6],
+                        [{zoom: 8, value: 1000}, 30],
+                        [{zoom: 12, value: 1}, 9],
+                        [{zoom: 12, value: 1000}, 42],
+                        [{zoom: 15, value: 1}, 12],
+                        [{zoom: 15, value: 1000}, 54]
                         ]
                     },
                     'circle-color': [
@@ -184,30 +161,7 @@ export default class MapFunctions extends Component {
                     },
                     'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType]
                 });
-                this.map.addLayer({
-                    id: 'clusters_coal',
-                    type: 'circle',
-                    source: 'powerplantSource_Coal',
-                    filter: ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,  ['has', 'point_count']],
-                    
-                    paint: {
-                       
-                        'circle-color': "#404040",
-                        'circle-radius': [
-                            'step',
-                            ['get', 'point_count'],
-                            20,
-                            100,
-                            30,
-                            750,
-                            40
-                        ],
-                        'circle-opacity': 0.3,
-                        'circle-stroke-color': "#404040",
-                        'circle-stroke-opacity': 1,
-                        'circle-stroke-width': 0.5
-                    }
-                });
+
                 this.map.addLayer({
                     id: 'unclusters_coal',
                     type: 'circle',
@@ -218,18 +172,17 @@ export default class MapFunctions extends Component {
                             type: 'exponential',
                             base: 2,
                             stops: [
-
-                                [{ zoom: 2, value: 1 }, 1],
-                                [{ zoom: 2, value: 2500 }, 5],
-                                [{ zoom: 4.5, value: 1 }, 2],
-                                [{ zoom: 4.5, value: 2500 }, 21],
-                                [{ zoom: 8, value: 1 }, 4],
-                                [{ zoom: 8, value: 2500 }, 32],
-                                [{ zoom: 12, value: 1 }, 6],
-                                [{ zoom: 12, value: 2500 }, 37],
-                                [{ zoom: 15, value: 1 }, 8],
-                                [{ zoom: 15, value: 2500 }, 42]
-                            ]
+                                [{zoom: 2, value: 1}, 1],
+                                [{zoom: 2, value: 2500}, 6],
+                                [{zoom: 4.5, value: 1}, 3],
+                                [{zoom: 4.5, value: 2500}, 20],
+                                [{zoom: 8, value: 1}, 6],
+                                [{zoom: 8, value: 2500}, 32],
+                                [{zoom: 12, value: 1}, 9],
+                                [{zoom: 12, value: 2500}, 56],
+                                [{zoom: 15, value: 1}, 12],
+                                [{zoom: 15, value: 2500}, 60]
+                                ]
                         },
                         'circle-color':  "#404040",
                         'circle-opacity': 0.3,
@@ -240,7 +193,26 @@ export default class MapFunctions extends Component {
                     'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]]
                //     'filter': ['!', ['has', 'point_count']]
                 });
-
+                this.map.addLayer({
+                    id: 'clusters_solar',
+                    type: 'circle',
+                    source: 'powerplantSource_Solar',
+                    filter: ["all", [ 'has', 'point_count'],  this.m_filterStartYear, this.m_filterEndYear, this.m_filterType ],
+                    
+                    paint: {
+                       
+                        'circle-color': "#ffc83e",
+                        'circle-radius': [
+                            'step',
+                            ['get', 'point_count'],
+                            2,
+                            50,
+                            20,
+                            100,
+                            50
+                        ]
+                    }
+                });
 
             })
             var self = this
@@ -439,7 +411,7 @@ export default class MapFunctions extends Component {
         if (this.map.isStyleLoaded()) {
             // map.setFilter('powerplants', ['all', filterOperator, filterType, filterStartYear, filterEndYear, filterSite, filterCapacity]);
             this.map.setFilter('unclusters_coal', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]] )
-            this.map.setFilter('clusters_coal', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,['has','point_count']])
+           
             this.map.setFilter('unclusters_solar', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]])
             this.map.setFilter('clusters_solar', ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType,['has','point_count']])
             this.map.setFilter('allpowerplants',['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType])
@@ -476,7 +448,7 @@ const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
         <div className="popupInfo" style={{ 'backgroundColor': color }} >
             <p><span className="label-title">Capacity: </span>{capacity}<span className="units">MW</span></p>
             {type2 !== "" ? <p><span className="label-title">Type: </span>{type2}</p> : ""}
-            {open !== undefined ? <p><span className="label-title">Year opened: </span> {open} </p> : ""}
+            {open !== undefined ? <p><span className="label-title">Year opened: </span>  {open} </p> : ""}
              {decom !== 9999 ?<p><span className="label-title"> Decomission: </span> {decom} </p> : ""}
 
         </div>
