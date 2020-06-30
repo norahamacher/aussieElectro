@@ -37,7 +37,7 @@ code {
   min-width: 60px;
   height:800px;
   position:fixed;
-  right: 15px;
+  right: 20px;
   z-index: 50;
  top:150px
 
@@ -83,6 +83,13 @@ code {
   margin-right:10px;
 }
 
+.typeSelectionLabel {
+  color: lightgrey;
+  margin-right: 10px;
+  height:35px;
+  margin-top:12px
+}
+
 .navItem {
   float: left;
   display: block;
@@ -93,6 +100,13 @@ code {
   
   margin-right:2px;
   min-width: 50px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
   
 }
 
@@ -883,20 +897,20 @@ input[type=range]::-moz-range-thumb {
 
 
 .navItemColor {
-  border: 2px solid rgba(40, 47, 66, 0.9);
+  border: 1px solid lightgrey;
   display:inline-block;
  
 }
 .navItemActive_Coal {
   background-color: #ced1cc;
-
+  border-color :  #ced1cc;
   color: #333;
 
 }
 
 .navItemActive_Storage {
   background-color: #4e80e5;
-
+  border-color: #4e80e5;
 
 }
 
@@ -909,43 +923,43 @@ input[type=range]::-moz-range-thumb {
 }
 .navItemActive_Solar {
   background-color: #ffc83e;
-
+  border-color: #ffc83e;
   color:  #333;
 
 }
 
 .navItemActive_Hydro {
   background-color: #43cfef;
-
+  border-color: #43cfef;
 
 }
 
 .navItemActive_Wind {
   background-color: #00a98e;
-
+  border-color: #00a98e;
 
 }
 
 .navItemActive_Biomass {
   background-color: #A7B734;
-
+  border-color: #A7B734;
 }
 
 .navItemActive_Solar2 {
   background-color: #ea545c;
-
+  border-color: #ea545c;
 
 }
 
 .navItemActive_Gas {
   background-color: #cc9b7a;
 
-
+  border-color: #cc9b7a;
 }
 
 .navItemActive_Waste {
   background-color: #6b4b06;
-
+  border-color: #6b4b06;
 
 }
 

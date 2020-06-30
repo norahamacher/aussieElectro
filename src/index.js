@@ -337,6 +337,7 @@ class ScrollyTeller extends Component {
                     )}
                 </div>
                 <div className="navbar navbar_right" id="typeNav">
+                    <span className="typeSelectionLabel">Type selection</span>
                     {this.state.types.map(
                         (type, i) =>
                             <NavMenuTypeItem
@@ -365,7 +366,7 @@ class ScrollyTeller extends Component {
                                 />
                         )}
                     </div>
-                    <StackedBar height={this.state.panelHeight} percentages={this.state.percentages} />
+                    <StackedBar height={this.state.panelHeight-70} percentages={this.state.percentages} />
                     <MapFunctions types={this.state.types} coalData={dataCoal} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
 
                 </div>
@@ -392,7 +393,7 @@ class StackedBar extends Component {
     render() {
         return (
             <div className="mapBorder" style={{ height: this.props.height }} id="stackedBar">
-                <Stackedbarchart percentages={this.props.percentages} width={100} height={this.props.height - 100}> Placeholder for stacked bar</Stackedbarchart>
+                <Stackedbarchart percentages={this.props.percentages} width={85} height={this.props.height} /> 
             </div>
         )
     }

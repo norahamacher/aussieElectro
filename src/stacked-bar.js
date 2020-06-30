@@ -79,7 +79,7 @@ export default class Stackedbarchart extends PureComponent {
 
     this.setState({
       data: {
-        labels: ["%"],
+        
         datasets: datasets
       },
       percentages: this.props.percentages
@@ -87,15 +87,19 @@ export default class Stackedbarchart extends PureComponent {
   }
   render() {
     return (
-      <div>
+    
+       
         <Bar
           data={this.state.data}
           width={this.props.width}
           height={this.props.height}
           options={{
             tooltips: {
-              displayColors: true
               
+              displayColors: false,
+              callbacks: {
+                title: function() {}
+             }
             },
             scales: {
               xAxes: [{
@@ -109,6 +113,8 @@ export default class Stackedbarchart extends PureComponent {
                 gridLines: {
                   display: true,
                 },
+                
+                position: 'right',
                 ticks: {
                   beginAtZero: true,
                   max: 100,
@@ -117,12 +123,17 @@ export default class Stackedbarchart extends PureComponent {
                
               }]
             },
+            layout: {
+              padding: {
+                  left: 20
+              }
+          },
             responsive: true,
             maintainAspectRatio: false,
             legend: { display: false }
           }}
         />
-      </div>
+     
     );
   }
 }
