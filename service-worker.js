@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aussieElectro/precache-manifest.7a02612ae6972444a0bfa593a4cb78aa.js"
+  "/aussieElectro/precache-manifest.0845d4b20ca3a2693951df6387b4078a.js"
 );
 
 self.addEventListener('message', (event) => {
