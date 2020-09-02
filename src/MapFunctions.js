@@ -32,7 +32,8 @@ export default class MapFunctions extends Component {
     state = {
 
         currentYear: this.props.activeYear,
-        rawtypes: this.props.types
+        rawtypes: this.props.types,
+        zoomlevel: 0
     }
 
 
@@ -46,6 +47,7 @@ export default class MapFunctions extends Component {
                 center: [140.7751, -38.2744]
             })
 
+           
             // const filterType = ['!=', ['string', ['get', 'technology']], 'Battery (Discharging)'];
             var coalData = this.props.coalData;//geojson.parse(data, {Point: ['latitude','longitude']})
             var solarData = this.props.solarData;
@@ -78,29 +80,34 @@ export default class MapFunctions extends Component {
                     source: 'powerplantSource_Solar',
                     paint: {
                         
-                        'circle-color': "#ffc83e",
-                        'circle-opacity': 0.3,
+                        'circle-color': [
+                            "rgb",
+                            255,
+                           ["get","gValue"],
+                            62
+
+                        ], //"#ffc83e",
+                        'circle-opacity': 0.5,
                         'circle-stroke-color': "#ffc83e",
                         'circle-stroke-opacity': 1,
                         'circle-stroke-width': 0.5,
-                        'circle-radius': {
+                        'circle-radius':  {
                             property: 'capacity',
-                            type: 'exponential',
-                            base: 2,
+                    //  //      type: 'exponential',
+                    //        base: 2,
                             stops: [
-
-                                [{ zoom: 2, value: 1 }, 1],
-                     
-                                [{ zoom: 4.5, value: 1 }, 2],
-                 
-                                [{ zoom: 8, value: 1 }, 4],
-               
-                                [{ zoom: 12, value: 1 },6],
-           
-                                [{ zoom: 15, value: 1 }, 8]
-          
+                                [{zoom: 3, value: 1}, 1],
+                                [{zoom: 3, value: 18}, 10],
+                                [{zoom: 4.5, value: 1}, 3],
+                                [{zoom: 4.5, value: 18}, 15],
+                                [{zoom: 7, value: 1}, 5],
+                                [{zoom: 7, value: 18}, 20],
+                                [{zoom: 10, value: 1}, 10],
+                                [{zoom: 10, value: 18}, 25]
+                       
                             ]
-                        },
+                        }
+                        
                     },
 
                     'filter': ['all', this.m_filterStartYear, this.m_filterEndYear, this.m_filterType, ['!', ['has', 'point_count']]]
@@ -112,19 +119,17 @@ export default class MapFunctions extends Component {
                     paint: {
                     'circle-radius': {
                         property: 'capacity',
-                        type: 'exponential',
-                        base: 2,
+                      //  type: 'exponential',
+                      //  base: 2,
                         stops: [
-                        [{zoom: 2, value: 1}, 1],
-                        [{zoom: 2, value: 1000}, 6],
+                        [{zoom: 3, value: 1}, 1],
+                        [{zoom: 3, value: 1000}, 6],
                         [{zoom: 4.5, value: 1}, 3],
                         [{zoom: 4.5, value: 1000}, 18],
-                        [{zoom: 8, value: 1}, 6],
-                        [{zoom: 8, value: 1000}, 30],
-                        [{zoom: 12, value: 1}, 9],
-                        [{zoom: 12, value: 1000}, 42],
-                        [{zoom: 15, value: 1}, 12],
-                        [{zoom: 15, value: 1000}, 54]
+                        [{zoom: 7, value: 1}, 18],
+                        [{zoom: 7, value: 1000}, 42],
+                        [{zoom: 10, value: 1}, 12],
+                        [{zoom: 10, value: 1000}, 54]
                         ]
                     },
                     'circle-color': [
@@ -316,9 +321,18 @@ export default class MapFunctions extends Component {
                 self.map.getCanvas().style.cursor = '';
                 self.drawPopup(false)
             });
+
+            this.map.on('zoomend', function(e){
+                self.setState({
+                    zoomlevel: self.map.getZoom()
+                })
+            })
             // Change the cursor style as a UI indicator.
             this.map.getCanvas().style.cursor = 'pointer';
             this.m_initiated = true;
+            this.setState({
+                zoomlevel: this.map.getZoom()
+            })
         }
 
     }
@@ -433,9 +447,10 @@ export default class MapFunctions extends Component {
 
     render() {
         return (
-
+            <div>
+                {this.props.debug===true ? <div className="Debug">Debug: zoom level: {this.state.zoomlevel} </div> : "" }
             <div style={{ height: this.props.height }} ref={el => this.mapContainer = el} className="mapContainer topDistance" id="map" />
-
+            </div>
         )
     }
 
@@ -445,11 +460,11 @@ const PopupContent = ({ color, name, capacity, open, decom, type2 }) => (
     <div className={`colour-key popupDiv`}>
         <h3 className="popupHeading" style={{ color: color }}> {name}</h3>
         <div className="popupInfo" style={{ 'backgroundColor': color }} >
-            <p><span className="label-title">Capacity: </span>{capacity}<span className="units">MW</span></p>
+            <p><span className="label-title">Capacity: </span>{capacity}<span className="units">  MW</span></p>
             {type2 !== "" ? <p><span className="label-title">Type: </span>{type2}</p> : ""}
             {open !== undefined ? <p><span className="label-title">Year opened: </span>  {open} </p> : ""}
              {decom !== 9999 ?<p><span className="label-title"> Decomission: </span> {decom} </p> : ""}
-
+           
         </div>
     </div>
 )

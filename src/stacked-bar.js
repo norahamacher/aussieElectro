@@ -43,7 +43,7 @@ export default class Stackedbarchart extends PureComponent {
   }
   componentDidUpdate() {
 
-    if(this.props.percentages!= this.state.percentages){
+    if(this.props.percentages!== this.state.percentages){
     console.log(this.props.percentages)
     var datasets = []
     for (var i = 0; i < this.props.percentages.length; i++) {
@@ -57,7 +57,7 @@ export default class Stackedbarchart extends PureComponent {
 
     this.setState({
       data: {
-        labels: ["%"],
+        labels: ["capacity"],
         datasets: datasets
       },
       percentages: this.props.percentages
@@ -98,7 +98,14 @@ export default class Stackedbarchart extends PureComponent {
               
               displayColors: false,
               callbacks: {
-                title: function() {}
+                title: function() {},
+                
+                label: function(tooltipItem, data) {
+                  var label = data.datasets[tooltipItem.datasetIndex].label || '';
+                 
+                  label +=": " + tooltipItem.yLabel;
+                  return  label + "%";
+              }
              }
             },
             scales: {

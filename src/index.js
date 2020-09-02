@@ -18,6 +18,7 @@ import stackedData from './AUSdata/yearDistribution.csv'
 class ScrollyTeller extends Component {
 
 
+    m_debug= true
     m_percentageCalcs = []
     updateDimensions = () => {
         this.setState({ width: window.innerWidth, height: window.innerHeight, panelHeight: window.innerHeight - 100 });
@@ -81,7 +82,7 @@ class ScrollyTeller extends Component {
     }
 
     prepPercentages = (data) => {
-        console.log(data)
+      //  console.log(data)
         //m_percentageCalcs
         /*0: {Year: "1989", Coal: "121167.00", Solar: "", Solar2: "", Hydro: "14880.00", …}
 1: {Year: "1990", Coal: "125559.00", Solar: "", Solar2: "", Hydro: "16103.00", …}
@@ -138,6 +139,11 @@ class ScrollyTeller extends Component {
         }
        // console.log(this.m_percentageCalcs)
        // this.updatePercentages(1960)
+       this.setState({
+           
+        percentages: this.GetNewPercentages( this.state.sections[0].year)
+        
+    })
     }
 
     UNSAFE_componentWillMount = function () {
@@ -146,7 +152,21 @@ class ScrollyTeller extends Component {
 
         d3.csv(stackedData).then(this.prepPercentages);
 
-        for (var i = 0; i < sectiondata.sections.length; i++) {
+        /* make solar not disappear because of dataset...*/
+        var postcode = "";
+        var i
+        for( i = 0; i <dataSolar.features.length; i ++){
+            var obj = dataSolar.features[i]
+            if ( obj.properties.site !== postcode) {
+                if(i>0){
+                    dataSolar.features[i-1].properties.yearEnd=9999
+                }
+                postcode = obj.properties.site
+            } 
+           
+        }
+        
+        for ( i = 0; i < sectiondata.sections.length; i++) {
             sectiondata.sections[i].renderparagraphs = this.createPanelContent(sectiondata.sections[i].year, sectiondata.sections[i].paragraphs)
             //     console.log(sectiondata.sections[i].renderparagraphs)
         }
@@ -157,10 +177,22 @@ class ScrollyTeller extends Component {
         })
 
         //  console.log(sectiondata.sections)
-
+        var val;
         for (var j = 0; j < dataSolar.features.length; j++) {
 
-            dataSolar.features[j].properties.capacity /= 1000;
+             val = dataSolar.features[j].properties.capacity;
+            if(val > 15000 ){
+                dataSolar.features[j].properties.gValue = 20
+            } else if( val < 200) {
+                dataSolar.features[j].properties.gValue = 200;
+            } else {
+               
+                dataSolar.features[j].properties.gValue =  300 - (Math.trunc((val - 200) * (200 - 50)/(15000-200) + 50))
+           //     console.log(dataSolar.features[j].properties.capacity);
+                
+            }
+            dataSolar.features[j].properties.capacity = (dataSolar.features[j].properties.capacity /= 1000).toFixed(2);
+           
 
         }
 
@@ -304,7 +336,7 @@ class ScrollyTeller extends Component {
 
     }
     toggleActive = (ttype) => {
-        console.log(ttype)
+       // console.log(ttype)
         this.setState(state => {
             const types = state.types.map((type) => {
                 if (type.type === ttype) {
@@ -367,7 +399,7 @@ class ScrollyTeller extends Component {
                         )}
                     </div>
                     <StackedBar height={this.state.panelHeight-70} percentages={this.state.percentages} />
-                    <MapFunctions types={this.state.types} coalData={dataCoal} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
+                    <MapFunctions types={this.state.types} coalData={dataCoal} debug={ this.m_debug} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
 
                 </div>
             </div>
@@ -401,8 +433,8 @@ class StackedBar extends Component {
 const NavMenuItem = ({ id, name, activeId }) => (
 
     <ScrollIntoView
-        selector={`#section${name}`}
-        alignToTop={true} >
+        selector={`#section${name}_id_p0`}
+        alignToTop={false} >
         <div className={`navItem ${id === activeId ? "navItemActive" : ""} `}> {name} </div>
     </ScrollIntoView>
 )

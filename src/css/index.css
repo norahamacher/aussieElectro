@@ -17,9 +17,9 @@ code {
 }
 
 .Panels{
-  width:30%;
-  min-height: 800px;
-  margin-left:15%;
+  width:45%;
+  min-height: 1000px;
+  margin-left:5px;
 }
 
 
@@ -43,6 +43,15 @@ code {
 
 }
 
+.Debug {
+  
+  z-index: 1000;
+  position:absolute; 
+  top:100px; 
+  left:10px;
+  color:black;
+  background-color:white
+}
 .storyPanelSection{
   min-height:1000px;
   padding-left:10px;
