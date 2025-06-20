@@ -146,39 +146,7 @@
                 }
             ]
         },
-        {
-            "year": 2030,
-            "paragraphs": [
-                {
-                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
-                },
-                {
-                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
-                }
-            ]
-        },
-        {
-            "year": 2040,
-            "paragraphs": [
-                {
-                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
-                },
-                {
-                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
-                }
-            ]
-        },
-        {
-            "year": 2050,
-            "paragraphs": [
-                {
-                    "text": "This is a scrollyteller developed in React. Data is displayed on the map to the right as the user scrolls. The content on this lefthand side is defined via json. For each paragraph text and map highlights, hyperlinks and other actions can be defined. Actions include the filtering of dots on the map, and this functionality will be extended."
-                },
-                {
-                    "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
-                }
-            ]
-        }
+
       
     ]
 }
