@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/aussieElectro/static/css/main.57b822a2.chunk.css",
-    "main.js": "/aussieElectro/static/js/main.470398a9.chunk.js",
-    "main.js.map": "/aussieElectro/static/js/main.470398a9.chunk.js.map",
+    "main.css": "/aussieElectro/static/css/main.71ccf7ea.chunk.css",
+    "main.js": "/aussieElectro/static/js/main.e73d548f.chunk.js",
+    "main.js.map": "/aussieElectro/static/js/main.e73d548f.chunk.js.map",
     "runtime-main.js": "/aussieElectro/static/js/runtime-main.55e4441f.js",
     "runtime-main.js.map": "/aussieElectro/static/js/runtime-main.55e4441f.js.map",
-    "static/js/2.ae368f7b.chunk.js": "/aussieElectro/static/js/2.ae368f7b.chunk.js",
-    "static/js/2.ae368f7b.chunk.js.map": "/aussieElectro/static/js/2.ae368f7b.chunk.js.map",
+    "static/js/2.f6ada0db.chunk.js": "/aussieElectro/static/js/2.f6ada0db.chunk.js",
+    "static/js/2.f6ada0db.chunk.js.map": "/aussieElectro/static/js/2.f6ada0db.chunk.js.map",
     "index.html": "/aussieElectro/index.html",
-    "precache-manifest.0845d4b20ca3a2693951df6387b4078a.js": "/aussieElectro/precache-manifest.0845d4b20ca3a2693951df6387b4078a.js",
+    "precache-manifest.7f6d4fb9113fcc3ed4ed826da8f2a140.js": "/aussieElectro/precache-manifest.7f6d4fb9113fcc3ed4ed826da8f2a140.js",
     "service-worker.js": "/aussieElectro/service-worker.js",
-    "static/css/main.57b822a2.chunk.css.map": "/aussieElectro/static/css/main.57b822a2.chunk.css.map",
-    "static/js/2.ae368f7b.chunk.js.LICENSE.txt": "/aussieElectro/static/js/2.ae368f7b.chunk.js.LICENSE.txt",
-    "static/media/yearDistribution.csv": "/aussieElectro/static/media/yearDistribution.d787f0f2.csv"
+    "static/css/main.71ccf7ea.chunk.css.map": "/aussieElectro/static/css/main.71ccf7ea.chunk.css.map",
+    "static/js/2.f6ada0db.chunk.js.LICENSE.txt": "/aussieElectro/static/js/2.f6ada0db.chunk.js.LICENSE.txt",
+    "static/media/yearDistribution.csv": "/aussieElectro/static/media/yearDistribution.713f33ce.csv"
   },
   "entrypoints": [
     "static/js/runtime-main.55e4441f.js",
-    "static/js/2.ae368f7b.chunk.js",
-    "static/css/main.57b822a2.chunk.css",
-    "static/js/main.470398a9.chunk.js"
+    "static/js/2.f6ada0db.chunk.js",
+    "static/css/main.71ccf7ea.chunk.css",
+    "static/js/main.e73d548f.chunk.js"
   ]
 }
