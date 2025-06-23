@@ -1,7 +1,6 @@
 {
     "sections": [
         {
-           
             "year": 1960,
             "paragraphs": [
                 {
@@ -10,11 +9,8 @@
                 {
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
-               
             ]
         },
-       
-        
         {
             "year": 1970,
             "paragraphs": [
@@ -24,10 +20,8 @@
                 {
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
-              
             ]
         },
-  
         {
             "year": 1980,
             "paragraphs": [
@@ -37,7 +31,6 @@
                 {
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
-               
             ]
         },
         {
@@ -49,10 +42,8 @@
                 {
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
-              
             ]
         },
-
         {
             "year": 2000,
             "paragraphs": [
@@ -86,7 +77,6 @@
                 }
             ]
         },
-
         {
             "year": 2012,
             "paragraphs": [
@@ -98,7 +88,6 @@
                 }
             ]
         },
-   
         {
             "year": 2014,
             "paragraphs": [
@@ -110,7 +99,6 @@
                 }
             ]
         },
-   
         {
             "year": 2016,
             "paragraphs": [
@@ -122,7 +110,6 @@
                 }
             ]
         },
-   
         {
             "year": 2018,
             "paragraphs": [
@@ -134,7 +121,6 @@
                 }
             ]
         },
-  
         {
             "year": 2020,
             "paragraphs": [
@@ -145,8 +131,6 @@
                     "text": "The longterm goal of this project is to make this usable for generic data and enable the user to create a scrollyteller with a map- by only providing the narrative, the data to be visualised on the map, and the actions that should happen as the user scrolls."
                 }
             ]
-        },
-
-      
+        }
     ]
 }

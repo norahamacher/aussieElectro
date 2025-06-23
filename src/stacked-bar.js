@@ -43,8 +43,29 @@ export default class Stackedbarchart extends PureComponent {
   }
   componentDidUpdate() {
 
-    if(this.props.percentages!== this.state.percentages){
-    console.log(this.props.percentages)
+    if (this.props.percentages !== this.state.percentages) {
+      var datasets = []
+      for (var i = 0; i < this.props.percentages.length; i++) {
+        var newObj = {}
+        newObj.label = this.props.percentages[i].type
+        newObj.backgroundColor = this.m_colors[newObj.label]
+        newObj.data = []
+        newObj.data[0] = this.props.percentages[i].percentage
+        datasets.push(newObj)
+      }
+
+      this.setState({
+        data: {
+          labels: ["capacity"],
+          datasets: datasets
+        },
+        percentages: this.props.percentages
+      })
+    }
+  }
+
+  componentDidMount() {
+
     var datasets = []
     for (var i = 0; i < this.props.percentages.length; i++) {
       var newObj = {}
@@ -57,29 +78,7 @@ export default class Stackedbarchart extends PureComponent {
 
     this.setState({
       data: {
-        labels: ["capacity"],
-        datasets: datasets
-      },
-      percentages: this.props.percentages
-    })
-  }
-  }
 
-  componentDidMount(){
-
-    var datasets = []
-    for (var i = 0; i < this.props.percentages.length; i++) {
-      var newObj = {}
-      newObj.label = this.props.percentages[i].type
-      newObj.backgroundColor = this.m_colors[newObj.label]
-      newObj.data = []
-      newObj.data[0] = this.props.percentages[i].percentage
-      datasets.push(newObj)
-    }
-
-    this.setState({
-      data: {
-        
         datasets: datasets
       },
       percentages: this.props.percentages
@@ -87,60 +86,60 @@ export default class Stackedbarchart extends PureComponent {
   }
   render() {
     return (
-    
-       
-        <Bar
-          data={this.state.data}
-          width={this.props.width}
-          height={this.props.height}
-          options={{
-            tooltips: {
-              
-              displayColors: false,
-              callbacks: {
-                title: function() {},
-                
-                label: function(tooltipItem, data) {
-                  var label = data.datasets[tooltipItem.datasetIndex].label || '';
-                 
-                  label +=": " + tooltipItem.yLabel;
-                  return  label + "%";
+
+
+      <Bar
+        data={this.state.data}
+        width={this.props.width}
+        height={this.props.height}
+        options={{
+          tooltips: {
+
+            displayColors: false,
+            callbacks: {
+              title: function () { },
+
+              label: function (tooltipItem, data) {
+                var label = data.datasets[tooltipItem.datasetIndex].label || '';
+
+                label += ": " + tooltipItem.yLabel;
+                return label + "%";
               }
-             }
-            },
-            scales: {
-              xAxes: [{
-                stacked: true,
-                gridLines: {
-                  display: false,
-                }
-              }],
-              yAxes: [{
-                stacked: true,
-                gridLines: {
-                  display: true,
-                },
-                
-                position: 'right',
-                ticks: {
-                  beginAtZero: true,
-                  max: 100,
-                  stepSize: 20
-                }
-               
-              }]
-            },
-            layout: {
-              padding: {
-                  left: 20
-              }
+            }
           },
-            responsive: true,
-            maintainAspectRatio: false,
-            legend: { display: false }
-          }}
-        />
-     
+          scales: {
+            xAxes: [{
+              stacked: true,
+              gridLines: {
+                display: false,
+              }
+            }],
+            yAxes: [{
+              stacked: true,
+              gridLines: {
+                display: true,
+              },
+
+              position: 'right',
+              ticks: {
+                beginAtZero: true,
+                max: 100,
+                stepSize: 20
+              }
+
+            }]
+          },
+          layout: {
+            padding: {
+              left: 20
+            }
+          },
+          responsive: true,
+          maintainAspectRatio: false,
+          legend: { display: false }
+        }}
+      />
+
     );
   }
 }

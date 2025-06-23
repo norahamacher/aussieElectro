@@ -18,13 +18,13 @@ import stackedData from './AUSdata/yearDistribution.csv'
 class ScrollyTeller extends Component {
 
 
-    m_debug= true
+    m_debug = true
     m_percentageCalcs = []
     updateDimensions = () => {
         this.setState({ width: window.innerWidth, height: window.innerHeight, panelHeight: window.innerHeight - 100 });
 
     };
-  
+
     //  m_mapfilter = null;
     state = {
         sections: [],
@@ -59,30 +59,28 @@ class ScrollyTeller extends Component {
 
 
     GetNewPercentages = (year) => {
-        console.log(year)
-       
+
         if (year < this.m_percentageCalcs[0].year || year === undefined) {
 
-               return this.m_percentageCalcs[0].vals
-          
-        } else if (year> this.m_percentageCalcs[this.m_percentageCalcs.length - 1].year) {
-            
-            return    this.m_percentageCalcs[this.m_percentageCalcs.length - 1].vals
-           
+            return this.m_percentageCalcs[0].vals
+
+        } else if (year > this.m_percentageCalcs[this.m_percentageCalcs.length - 1].year) {
+
+            return this.m_percentageCalcs[this.m_percentageCalcs.length - 1].vals
+
         } else {
-                var i=0
-                while(this.m_percentageCalcs[i].year < year){
-       
-                    i++
-                }
-                console.log(this.m_percentageCalcs[i].vals)
-                return  this.m_percentageCalcs[i].vals      
+            var i = 0
+            while (this.m_percentageCalcs[i].year < year) {
+
+                i++
+            }
+            return this.m_percentageCalcs[i].vals
         }
-    
+
     }
 
     prepPercentages = (data) => {
-      //  console.log(data)
+        //  console.log(data)
         //m_percentageCalcs
         /*0: {Year: "1989", Coal: "121167.00", Solar: "", Solar2: "", Hydro: "14880.00", …}
 1: {Year: "1990", Coal: "125559.00", Solar: "", Solar2: "", Hydro: "16103.00", …}
@@ -124,26 +122,26 @@ class ScrollyTeller extends Component {
             if (!isNaN(row.Wind)) {
                 sum += row.Wind
             }
-         //   console.log(row)
+            //   console.log(row)
             // sum = parseFloat(row.Coal) + parseFloat(row.Solar) + parseFloat(row.Solar2) + parseFloat(row.Hydro) + parseFloat(row.Gas) + parseFloat(row.Waste) + parseFloat(row.Wind)
 
-            arr.push({ "type": "Coal", "percentage": +parseFloat( (row.Coal) / sum * 100 ).toFixed(2)})
+            arr.push({ "type": "Coal", "percentage": +parseFloat((row.Coal) / sum * 100).toFixed(2) })
             arr.push({ "type": "Solar", "percentage": +parseFloat((row.Solar) / sum * 100).toFixed(2) })
             arr.push({ "type": "Solar2", "percentage": +parseFloat((row.Solar2) / sum * 100).toFixed(2) })
             arr.push({ "type": "Hydro", "percentage": +parseFloat((row.Hydro) / sum * 100).toFixed(2) })
             arr.push({ "type": "Waste", "percentage": +parseFloat((row.Waste) / sum * 100).toFixed(2) })
-            arr.push({ "type": "Wind", "percentage": +parseFloat((row.Wind) / sum * 100 ).toFixed(2)})
+            arr.push({ "type": "Wind", "percentage": +parseFloat((row.Wind) / sum * 100).toFixed(2) })
             arr.push({ "type": "Gas", "percentage": +parseFloat((row.Gas) / sum * 100).toFixed(2) })
-          
+
             this.m_percentageCalcs.push({ "year": parseFloat(row.Year), vals: arr })
         }
-       // console.log(this.m_percentageCalcs)
-       // this.updatePercentages(1960)
-       this.setState({
-           
-        percentages: this.GetNewPercentages( this.state.sections[0].year)
-        
-    })
+        // console.log(this.m_percentageCalcs)
+        // this.updatePercentages(1960)
+        this.setState({
+
+            percentages: this.GetNewPercentages(this.state.sections[0].year)
+
+        })
     }
 
     UNSAFE_componentWillMount = function () {
@@ -155,18 +153,18 @@ class ScrollyTeller extends Component {
         /* make solar not disappear because of dataset...*/
         var postcode = "";
         var i
-        for( i = 0; i <dataSolar.features.length; i ++){
+        for (i = 0; i < dataSolar.features.length; i++) {
             var obj = dataSolar.features[i]
-            if ( obj.properties.site !== postcode) {
-                if(i>0){
-                    dataSolar.features[i-1].properties.yearEnd=9999
+            if (obj.properties.site !== postcode) {
+                if (i > 0) {
+                    dataSolar.features[i - 1].properties.yearEnd = 9999
                 }
                 postcode = obj.properties.site
-            } 
-           
+            }
+
         }
-        
-        for ( i = 0; i < sectiondata.sections.length; i++) {
+
+        for (i = 0; i < sectiondata.sections.length; i++) {
             sectiondata.sections[i].renderparagraphs = this.createPanelContent(sectiondata.sections[i].year, sectiondata.sections[i].paragraphs)
             //     console.log(sectiondata.sections[i].renderparagraphs)
         }
@@ -180,19 +178,19 @@ class ScrollyTeller extends Component {
         var val;
         for (var j = 0; j < dataSolar.features.length; j++) {
 
-             val = dataSolar.features[j].properties.capacity;
-            if(val > 15000 ){
+            val = dataSolar.features[j].properties.capacity;
+            if (val > 15000) {
                 dataSolar.features[j].properties.gValue = 20
-            } else if( val < 200) {
+            } else if (val < 200) {
                 dataSolar.features[j].properties.gValue = 200;
             } else {
-               
-                dataSolar.features[j].properties.gValue =  300 - (Math.trunc((val - 200) * (200 - 50)/(15000-200) + 50))
-           //     console.log(dataSolar.features[j].properties.capacity);
-                
+
+                dataSolar.features[j].properties.gValue = 300 - (Math.trunc((val - 200) * (200 - 50) / (15000 - 200) + 50))
+                //     console.log(dataSolar.features[j].properties.capacity);
+
             }
             dataSolar.features[j].properties.capacity = (dataSolar.features[j].properties.capacity /= 1000).toFixed(2);
-           
+
 
         }
 
@@ -205,18 +203,18 @@ class ScrollyTeller extends Component {
     setActiveID = (id) => {
         this.setState({
             activeId: id,
-       
-            
+
+
         })
 
-        if(this.m_percentageCalcs!==undefined && this.m_percentageCalcs.length > 0){
+        if (this.m_percentageCalcs !== undefined && this.m_percentageCalcs.length > 0) {
             this.setState({
-           
-                percentages: this.GetNewPercentages( this.state.sections[id].year)
-                
+
+                percentages: this.GetNewPercentages(this.state.sections[id].year)
+
             })
         }
-      //  this.updatePercentages(this.state.sections[id].year)
+        //  this.updatePercentages(this.state.sections[id].year)
         //this.m_mapFunctions.setFilterYearStart(this.state.years[id])
         //   this.m_mapFunctions.setFilterStartEnd(this.state.sections[id].year)
 
@@ -336,7 +334,7 @@ class ScrollyTeller extends Component {
 
     }
     toggleActive = (ttype) => {
-       // console.log(ttype)
+        // console.log(ttype)
         this.setState(state => {
             const types = state.types.map((type) => {
                 if (type.type === ttype) {
@@ -398,8 +396,8 @@ class ScrollyTeller extends Component {
                                 />
                         )}
                     </div>
-                    <StackedBar height={this.state.panelHeight-70} percentages={this.state.percentages} />
-                    <MapFunctions types={this.state.types} coalData={dataCoal} debug={ this.m_debug} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
+                    <StackedBar height={this.state.panelHeight - 70} percentages={this.state.percentages} />
+                    <MapFunctions types={this.state.types} coalData={dataCoal} debug={this.m_debug} currentData={currentData} solarData={dataSolar} height={this.state.panelHeight} activeYear={this.state.sections !== undefined ? this.state.sections[this.state.activeId].year : "1950"} />
 
                 </div>
             </div>
@@ -425,7 +423,7 @@ class StackedBar extends Component {
     render() {
         return (
             <div className="mapBorder" style={{ height: this.props.height }} id="stackedBar">
-                <Stackedbarchart percentages={this.props.percentages} width={85} height={this.props.height} /> 
+                <Stackedbarchart percentages={this.props.percentages} width={85} height={this.props.height} />
             </div>
         )
     }
