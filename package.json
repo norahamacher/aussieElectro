@@ -20,7 +20,7 @@
     "react-html-parser": "^2.0.2",
     "react-intersection-observer": "^8.26.1",
     "react-mapbox-gl": "^4.8.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-scroll-into-view": "^1.8.0",
     "react-sticky-el": "^1.1.0",
     "react-waypoint": "^9.0.2",
